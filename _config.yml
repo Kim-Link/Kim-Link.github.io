@@ -22,7 +22,7 @@ title: 생각충돌
 author: KIM SU HWANG
 email: thinkcrash@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  주니어 개발자 김수황의 TIL 블로그
+  백엔드 개발자 김수황의 개인 블로그
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Kim-Link.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
