@@ -18,13 +18,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SSY Developers
-author: Seeyoon Sung
-email: melodyrepublic4u@gmail.com
+title: 생각충돌
+author: KIM SU HWANG
+email: thinkcrash@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  주니어 개발자 성시윤의 TIL 블로그
+  주니어 개발자 김수황의 TIL 블로그
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://junlark.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://Kim-Link.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 theme: minima

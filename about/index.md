@@ -23,7 +23,7 @@ title: 자기소개
             <div class="content">
                 <h1 class="subtitle">Introduction</h1>
                 <ul class="environment">
-                    <li>안녕하세요! 새싹 프론트엔드 개발자 성시윤입니다.</li>
+                    <li>안녕하세요! 새싹 백엔드 개발자 김수황입니다.</li>
                     <li>평소 IT서비스에 대한 직무적인 관심을 갖고 있었고, 프론트엔드 개발자가 반드시 되어야겠다는 결심을 하게 되어 교육을 받고 수료하였습니다.</li>
                     <li>예술 및 미디어를 전공했던 감각을 살려 교육과정 내 프로젝트에서는 퍼블리셔의 업무도 함께 수행하였습니다.</li>
                     <li>동기와 함께 신규 프로젝트를 하기 위해 Typescript와 React-native, Vue.js를 공부하고 있습니다.</li>
