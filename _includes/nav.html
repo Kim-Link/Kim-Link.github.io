@@ -1,0 +1,35 @@
+<script>
+  function switchMenuVisible() {
+      if ($('ul').hasClass('hide')) {
+          $('ul').removeClass('hide');
+      } else {
+          $('ul').addClass('hide');
+      }
+  }
+</script>
+
+<nav class="nav">
+  <div class="nav-container">
+
+    <div class="logo">
+      <a href="{{ '' | prepend: site.baseurl }}/">
+        <img src="/meta/h_logo.png">
+        <span>SSY Developers</span>
+      </a>
+    </div>
+
+    <ul class="hide">
+      {% for menu in site.data.menu %}
+      <li class="transition">
+        <a href="/{{menu.id}}" {% if current[1]== menu.id %} class="active" {% endif%}>
+          {{ menu.label }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <div class="dropdown" onclick="switchMenuVisible()">
+      <div class="icon">☰</div>
+    </div>
+  </div>
+</nav>

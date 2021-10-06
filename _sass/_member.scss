@@ -1,0 +1,87 @@
+.member_card {
+  border-bottom: 1px solid $grey-2;
+  display: flex;
+  padding: 30px 0;
+
+  &:last-child {
+    border: none;
+  }
+
+  .thumbnail {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    float: left;
+    border-radius: 50%;
+    margin: auto 30px auto 0;
+    background-color: $grey-3;
+    display: table;
+    flex: none;
+
+    .emoji {
+      position: absolute;
+    }
+
+    .profile {
+      margin: 0;
+      float: left;
+      border-radius: 50%;
+      width: 100%;
+      height: inherit;
+      object-fit: cover;
+      position: initial;
+    }
+
+    .emoji {
+      background-color: white;
+      bottom: 0;
+      right: 0;
+      display: flex;
+      border-radius: 50%;
+      width: 23px;
+      height: 23px;
+
+      span {
+        margin: auto;
+        font-size: 14px;
+
+        @media (min-width: $break-small) {
+          font-size: 16px;
+        }
+
+        @media (min-width: $break-medium) {
+          font-size: 18px;
+        }
+      }
+
+      @media (min-width: $break-small) {
+        width: 27px;
+        height: 27px;
+      }
+
+      @media (min-width: $break-medium) {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    @media (min-width: $break-small) {
+      width: 80px;
+      height: 80px;
+    }
+
+    @media (min-width: $break-large) {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+  .info {
+    margin: auto 0;
+    width: -webkit-fill-available;
+  }
+
+  .name {
+    font-weight: 600;
+  }
+}

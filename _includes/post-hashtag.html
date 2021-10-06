@@ -1,0 +1,8 @@
+<div class="post-tags">
+    {% if page.hash-tag %}
+        <span class="tag-emoji"></span>
+        {% for tag in page.hash-tag %}
+        <a href="/tech/?tag={{ tag }}"><span class="tag" data-tag="{{ tag }}">{{ tag }}</span></a>
+        {% endfor %}
+    {% endif %}
+</div>

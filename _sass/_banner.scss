@@ -1,0 +1,231 @@
+.no-wrap {
+  white-space: nowrap;
+}
+
+.overlay {
+  background-size: cover !important;
+}
+
+.main-banner {
+  @media (max-width: $break-small) {
+    height: 250px !important;
+  }
+}
+
+.about-banner {
+  @media (max-width: $break-small) {
+    height: 200px !important;
+  }
+}
+
+.main-banner, .recruit-banner, .about-banner {
+  left: 0;
+  right: 0;
+  height: 400px;
+
+  @media (max-width: $break-medium) {
+    height: 300px;
+  }
+
+  @media (max-width: $break-small) {
+    bottom: 0;
+    height: 150px;
+  }
+
+  .text-wrapper {
+    .main-title {
+      font-size: 30px;
+      font-weight: bold;
+
+      @media (max-width: $break-medium) {
+        font-size: 22px;
+      }
+      @media (max-width: $break-small) {
+        font-size: 23px;
+        margin-top: 5px;
+      }
+    }
+
+    .sub-title {
+      font-size: 24px;
+      font-weight: bold;
+
+      @media (max-width: $break-medium) {
+        font-size: 18px;
+      }
+      @media (max-width: $break-small) {
+        font-size: 16px;
+      }
+    }
+
+    .description {
+      font-size: 19px;
+
+      @media (max-width: $break-medium) {
+        font-size: 15px;
+      }
+      @media (max-width: $break-small) {
+        font-size: 14px;
+      }
+    }
+
+    .highlight-text {
+      color: $primary;
+    }
+  }
+}
+
+.main-banner {
+  @media (max-width: $break-small) {
+    margin: 30px 0 80px 0;
+  }
+
+  .content {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    img {
+      margin: auto;
+      min-height: 100%;
+      min-width: 100%;
+      object-fit: contain;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      @media (max-width: $break-medium) {
+        background: rgba(255, 255, 255, 0.3);
+      }
+      @media (max-width: $break-small) {
+        background: rgba(255, 255, 255, 0.5);
+      }
+    }
+
+    .text-wrapper {
+      position: absolute;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      width: fit-content;
+      padding: 0 20px;
+
+      a {
+        color: #A4D233;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.recruit-banner {
+  .content {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    img {
+      position: absolute;
+      left: -1000%;
+      right: -1000%;
+      top: -1000%;
+      bottom: -1000%;
+      margin: auto;
+      min-height: 100%;
+      min-width: 100%;
+      object-fit: contain;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      @media (max-width: $break-medium) {
+        background: rgba(255, 255, 255, 0.3);
+      }
+      @media (max-width: $break-small) {
+        background: rgba(255, 255, 255, 0.5);
+      }
+    }
+
+    .text-wrapper {
+      position: absolute;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      width: fit-content;
+      padding: 0 20px;
+
+      .button {
+        background-color: $primary;
+        color: white;
+        margin: 40px auto 0 auto;
+        width: fit-content;
+        padding: 15px 25px;
+        @media (max-width: $break-medium) {
+          font-size: 16px;
+          margin-top: 30px;
+        }
+        @media (max-width: $break-small) {
+          font-size: 14px;
+          margin-top: 20px;
+          padding: 10px 20px;
+        }
+
+        &:hover {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+.about-banner {
+  .content {
+    overflow: hidden;
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+    img {
+      margin: auto;
+      min-height: 100%;
+      min-width: 100%;
+      object-fit: contain;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      @media (max-width: $break-medium) {
+        background: rgba(255, 255, 255, 0.3);
+      }
+      @media (max-width: $break-small) {
+        background: rgba(255, 255, 255, 0.5);
+      }
+    }
+
+    .text-wrapper {
+      position: absolute;
+      text-align: center;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      top: 50%;
+      width: fit-content;
+      padding: 0 20px;
+    }
+  }
+}

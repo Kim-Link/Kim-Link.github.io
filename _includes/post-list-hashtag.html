@@ -1,0 +1,7 @@
+<div class="post-list-tags">
+    {% if page.hash-tag %}
+        {% for tag in page.hash-tag %}
+            <a href="/tech/?tag={{ tag }}"><span class="tag" data-tag="{{ tag }}">{{ tag }}</span></a>
+        {% endfor %}
+    {% endif %}
+</div>

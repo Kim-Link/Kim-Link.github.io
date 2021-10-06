@@ -1,0 +1,145 @@
+.nav {
+  overflow: auto;
+  padding: 25px 0;
+  margin-bottom: 10px;
+
+  &-container {
+    width: 100%;
+    margin: 0 auto;
+    position: static;
+
+    .logo {
+      display: inline-block;
+      margin: 0 60px 0 20px;
+      float: left;
+
+      @media (max-width: $break-medium) {
+        float: none;
+      }
+
+      @media (min-width: $break-large) {
+        margin-left: 0;
+      }
+
+      a {
+        display: flex;
+
+        span {
+          margin: auto 0;
+          font-weight: bold;
+          font-size: 1.28em;
+          white-space: nowrap;
+
+          @media (max-width: $break-small) {
+            font-size: 1.22em;
+          }
+        }
+
+        img {
+          width: auto;
+          height: 50px;
+          margin: 0 5px 0 0;
+          display: inline-block;
+
+          @media (max-width: $break-small) {
+            width: 40px;
+            height: 40px;
+          }
+        }
+      }
+    }
+
+    ul {
+      display: flex;
+
+      @media (max-width: $break-medium) {
+        margin-left: 55px;
+      }
+
+      @media (max-width: $break-small) {
+        &.hide {
+          display: none;
+        }
+
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: white;
+        margin: 60px 0 0 0;
+        display: block;
+        z-index: 999;
+        box-shadow: 0px 10px 10px 1px #eee;
+        padding: 10px 0 20px 0;
+      }
+
+      li {
+        font-family: $source;
+        display: inline-block;
+        margin: auto 50px auto 0;
+        white-space: nowrap;
+        font-size: 18px;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        @media (max-width: $break-medium) {
+          font-size: 17px;
+        }
+
+        @media (max-width: $break-small) {
+          font-size: 16px;
+          display: block;
+          padding: 15px 20px;
+          text-align: center;
+          margin: auto 0;
+        }
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+    }
+
+    .dropdown {
+      display: none;
+      margin-left: auto;
+      padding: 0 20px;
+      cursor: pointer;
+
+      .icon {
+        margin: auto 0;
+        font-size: 20px;
+      }
+
+      @media (max-width: $break-small) {
+        display: inherit;
+      }
+
+      ul.dropdown-list {
+
+      }
+    }
+
+    @media (max-width: $break-small) {
+      display: flex;
+    }
+
+    @media (min-width: $break-medium) {
+      display: flex;
+    }
+  }
+}
+
+.active {
+  padding-bottom: 6px;
+  border-bottom: 2px solid $grey-0;
+  font-weight: 700;
+  color: $grey-0;
+}
+
+.normal {
+  font-weight: 500;
+  border-style: none;
+  padding-bottom: 0;
+}

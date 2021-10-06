@@ -1,0 +1,87 @@
+<script>
+    function filterByTagName(tagName) {
+        $('.hidden').removeClass('hidden');
+        $('.catalogue-item').each(function(index, elem) {
+            if (!elem.hasAttribute("data-" + tagName)) {
+                $(elem).addClass('hidden');
+            }
+        });
+        $(".tag").removeClass('selected');
+        $(".tag[data-tag=" + tagName + "]").addClass('selected');
+    }
+
+    function updateQueryString(tagName) {
+        const path = location.protocol + "//" + location.host + location.pathname + "?tag=" + tagName;
+        window.history.replaceState({ path: path }, '', path);
+    }
+
+    function sortTag(a,b){
+        a = $(a).attr("data-tag");
+        b = $(b).attr("data-tag");
+        if(a > b) {
+            return 1;
+        } else if(a < b) {
+            return -1;
+        } else {
+            return 0;
+        }
+    }
+
+    function makeTagList(){
+        let $tags = $(".tag");
+        const tags = [];
+        for(let i = 0; i < $tags.length; i++){
+            var v = $tags[i];
+            const repTagText = $(v).text().replace(/\s/gi, "");
+            if(tags.indexOf(repTagText) < 0) {
+                tags.push(repTagText);
+                $("#tag-list")[0].innerHTML += '<span class="tag" data-tag="' + repTagText +'">' + repTagText + '</span>';
+            }
+        }
+        $('#tag-list span').sort(sortTag).appendTo('#tag-list');
+    }
+
+    function getAllTagList() {
+        const $tags = Array.prototype.slice.call($('#tag-list span'))
+        const result = [];
+        for(let i in $tags){
+            var v = $tags[i];
+            const repTagText = $(v).text().replace(/\s/gi, "");
+            result.push(repTagText)
+        }
+        return result;
+    }
+
+    function linkTag(){
+        const queryTag = window.location.search.substring(5);
+        const tags = getAllTagList();
+        var flag = false;
+
+        for(let i = 0; i < tags.length; i++){
+            if(queryTag === tags[i]){
+                flag = true;
+            }
+        }
+        if (queryTag && flag) {
+            filterByTagName(queryTag);
+        }
+    }
+
+    function tagFilter(){
+        makeTagList();
+        linkTag();
+        $("[data-tag]").click(function(e) {
+            const currentTag = e.target.dataset.tag;
+            filterByTagName(currentTag);
+            updateQueryString(currentTag);
+        })
+    }
+
+    $(document).ready(function() {
+        tagFilter();
+    });
+</script>
+
+<div class="tag-container">
+  <div id="tag-list" class="tag-list"></div>
+</div>

@@ -1,0 +1,41 @@
+{% assign writer = site.data.members | where: 'id', mention.writer | first %}
+<div class="branch_line"></div>
+<div class="branch_point"></div>
+<div class="thumbnail">
+  {% assign thumbnail = site.static_files | where: 'basename', writer.id | first %}
+  <img class="profile" src="{{ thumbnail.path }}"/>
+  <div class="emoji"><span>{{ writer.emoji }}</span></div>
+</div>
+<div class="content_wrap">
+  <div class="line"></div>
+  <div class="mention" upload="{{mention.date}}">
+    <div class="message">
+      {{ mention.message }}
+    </div>
+    {% if mention.media != null %}
+    <div class="media">
+      {% for file in mention.media %}
+        {% if file.type == 'video' %}
+          <div class="video-wrap">
+            <a href="https://www.youtube.com/watch?v=big4xZFQ7c0" target="_blank">
+              <div>
+                <img class="video-content" src="http://img.youtube.com/vi/{{file.name}}/0.jpg">
+              </div>
+            </a>
+          </div>
+        {% else %}
+          {% assign item = site.static_files | where: 'basename', file.name | first %}
+          <div class="image-wrap">
+            <img class="img-content" src="{{ item.path }}" onclick="return openModal('{{ item.path }}', '{{ mention.date }}','{{ forloop.index }}')">
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+    {% endif %}
+    <div class="info">
+      <span class="writer">by {{ writer.name }}</span>
+      <span class="split">·</span>
+      <span class="date">{{ mention.date }}</span>
+    </div>
+  </div>
+</div>

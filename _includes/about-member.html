@@ -1,0 +1,13 @@
+<li class="member_card">
+  <div class="thumbnail">
+    {% assign thumbnail = site.static_files | where: 'basename', member.id | first %}
+    <img class="profile" src="{{ thumbnail.path }}" />
+    <div class="emoji">
+      <span>{{member.emoji}}</span>
+    </div>
+  </div>
+  <div class="info">
+    <div class="name">{{member.name}}</div>
+    <div class="description">{{member.comment}}</div>
+  </div>
+</li>

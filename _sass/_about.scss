@@ -1,0 +1,149 @@
+.about {
+  .section {
+    display: grid;
+  }
+
+  .title {
+    color: $primary;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0 10px 0;
+
+    &.list {
+      margin-top: 50px;
+    }
+
+    &.index {
+      font-size: 30px;
+      padding: 0 10px;
+
+      @media (max-width: $break-small) {
+        font-size: 18px;
+        margin-bottom: 5px;
+      }
+    }
+
+    @media (max-width: $break-small) {
+      font-size: 18px;
+    }
+  }
+
+  .content {
+    padding: 0 10px;
+    display: block;
+
+    @media (max-width: $break-small) {
+      display: table-cell;
+    }
+
+    .subtitle {
+      width: 30%;
+      float: left;
+      font-size: 25px;
+
+      @media (max-width: $break-small) {
+        width: 100%;
+        font-size: 17px;
+      }
+    }
+
+    ul.culture, ul.environment {
+      padding: 38px 18px;
+      list-style-type: disc;
+      width: 70%;
+      float: left;
+      border-top: 2px solid #000000;
+
+      @media (max-width: $break-small) {
+        width: 100%;
+        border-top: none;
+        padding: 15px 0 0 20px;
+      }
+
+      li {
+        line-height: 30px;
+
+        @media (max-width: $break-small) {
+          margin-bottom: 10px;
+          line-height: initial;
+          font-size: 14px;
+        }
+
+        .mobile-only {
+          display: none;
+          @media (max-width: $break-small) {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .divider {
+      border-top: 2px solid #000000;
+      display: flex;
+      margin-bottom: 60px;
+
+      @media (max-width: $break-small) {
+        margin-bottom: 40px;
+      }
+    }
+
+    .group {
+      margin-top: 40px;
+
+      @media (max-width: $break-small) {
+        margin-top: 20px;
+      }
+
+      .group-name {
+        clear: both;
+        color: $primary;
+        font-size: 19px;
+        font-weight: 600;
+        margin: 0 10px;
+
+        @media (max-width: $break-medium) {
+          font-size: 18px;
+        }
+
+        @media (max-width: $break-small) {
+          font-size: 17px;
+        }
+      }
+
+      ul.member {
+        display: -webkit-box;
+        flex-wrap: wrap;
+        margin: 0 10px;
+
+        @media (max-width: $break-medium) {
+          display: block;
+        }
+
+        li {
+          width: 440px;
+          border: none;
+
+          &:nth-child(even) {
+            margin-left: auto;
+          }
+
+          @media (max-width: $break-large) {
+            width: 420px;
+          }
+
+          @media (max-width: $break-medium) {
+            width: unset;
+            border-bottom: 1px solid $grey-2;
+
+            &:last-child {
+              border: none;
+            }
+          }
+
+        }
+      }
+    }
+
+  }
+}
