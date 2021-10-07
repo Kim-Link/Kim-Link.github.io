@@ -12,10 +12,6 @@ hash-tag: [Programmers]
 
 ---
 
-* 문제 링크 : https://programmers.co.kr/learn/courses/30/lessons/42747%5D
-
-
-
 ### 처음에 시도한 방식
 
 ------
@@ -93,3 +89,5 @@ num은 index number인데 실제 논문 횟수는 +1 이 되어야 하므로 num
 다른사람들 문제 풀이를 보니 많은 사람들이 이렇게 푼것 같다.
 
 코딩테스트를 잘보려면 더 빨리 잘 풀어야 하는데 큰일이다.
+
+* 문제 링크 : https://programmers.co.kr/learn/courses/30/lessons/42747%5D
