@@ -1,6 +1,6 @@
 ---
 layout: post
-type: REcoding
+type: LOading
 date: 2021-09-25 22:35
 category: Javascript
 title: 변수, 함수, 조건문, 배열, 객체, 문자열 메소드
