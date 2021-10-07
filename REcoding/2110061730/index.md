@@ -8,7 +8,7 @@ title: 생각충돌이 무슨뜻인가요?
 subtitle: 생각과 생각이 부딛힌다.
 writer: 000000
 post-header: true
-header-img : about.jpeg
+header-img : img/about.jpeg
 hash-tag: [생각충돌]
 ---
 
