@@ -1,6 +1,6 @@
 ---
 layout: main
-title: advance
+title: REcoding
 main: true
 ---
 
@@ -9,7 +9,7 @@ main: true
 {% include hashtag.html %}
 
 <ul class="catalogue">
-{% assign sorted = site.pages | sort: 'date' | reverse | where: 'type', 'advance' %}
+{% assign sorted = site.pages | sort: 'date' | reverse | where: 'type', 'REcoding' %}
 {% for page in sorted %}
 {% include post-list.html %}
 {% endfor %}

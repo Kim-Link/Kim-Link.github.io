@@ -1,6 +1,6 @@
 ---
 layout: post
-type: advance
+type: REcoding
 date: 2021-10-06 17:30
 draft: false
 category: Typescript
