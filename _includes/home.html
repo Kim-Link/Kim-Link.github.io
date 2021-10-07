@@ -11,8 +11,6 @@
             {% endfor %}
           </tr>
         </table>
-      </div>
-      <div class="content">
         <table class="catalogue">
           <tr>
             {% assign sorted = site.pages | sort: 'date' | reverse | where: 'type', 'REcoding' %}
@@ -22,6 +20,7 @@
           </tr>
         </table>
       </div>
+      
     </div>
     
   </section>
