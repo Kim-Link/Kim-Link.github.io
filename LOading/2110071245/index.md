@@ -7,9 +7,8 @@ title: Typescript실행하기
 subtitle: 타입스크립트를 실행해 보자
 writer: 000000
 post-header: true
-header-img: img/headerImg.png
+header-img: img/about.jpeg
 hash-tag: [Typescript, 단축키]
-
 ---
 
 >

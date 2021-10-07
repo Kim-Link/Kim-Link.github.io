@@ -7,7 +7,7 @@ title: Typescript의 기본타입(1)
 subtitle: 타입스크립트의 기본타입 첫번째. 기본이 제일 중요한건 알지?
 writer: 000000
 post-header: true
-header-img: img/headerImg.png
+header-img: img/about.jpeg
 hash-tag: [Typescript, 기본타입]
 
 
