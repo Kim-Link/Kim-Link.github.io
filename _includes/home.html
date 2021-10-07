@@ -10,8 +10,6 @@
             {% include post-card.html %}
             {% endfor %}
           </tr>
-        </table>
-        <table class="catalogue">
           <tr>
             {% assign sorted = site.pages | sort: 'date' | reverse | where: 'type', 'REcoding' %}
             {% for page in sorted limit:4 %}
