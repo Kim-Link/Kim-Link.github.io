@@ -1,7 +1,7 @@
 ---
 layout: post
 type: LOading
-date: 2021-10-07 19:05
+date: 2021-10-07 19:02
 category: Programmers
 title: JadenCase 문자열 만들
 subtitle: 벽... 벽이 있음이 분명해....
