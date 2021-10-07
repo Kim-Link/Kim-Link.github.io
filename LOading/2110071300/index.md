@@ -1,7 +1,7 @@
 ---
 layout: post
 type: LOading
-date: 2021-10-07 12:35
+date: 2021-10-07 12:00
 category: Typescript
 title: Typescript의 기본타입(1)
 subtitle: 타입스크립트의 기본타입 첫번째. 기본이 제일 중요한건 알지?

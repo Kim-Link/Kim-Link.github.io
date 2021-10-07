@@ -1,7 +1,7 @@
 ---
 layout: post
 type: LOading
-date: 2021-10-07 12:35
+date: 2021-10-07 12:45
 category: Typescript
 title: Typescript실행하기
 subtitle: 타입스크립트를 실행해 보자

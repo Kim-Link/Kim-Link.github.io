@@ -1,7 +1,7 @@
 ---
 layout: post
 type: LOading
-date: 2021-10-07 18:24
+date: 2021-10-07 18:22
 category: Programmers
 title: H-index
 subtitle: 프로그래머스...왜틀렸는지 안알랴쥼...
