@@ -25,7 +25,12 @@ JadenCase란 모든 단어의 첫 문자가 대문자이고, 그 외의 알파�
 
 ### 입출력 예
 
-[제목 없음](https://www.notion.so/058ddc19ecc54da992d0da73e596c071)
+| s                       |         return          |
+| ----------------------- | :---------------------: |
+| "3people unFollowed me" | "3people Unfollowed Me" |
+| "for the last week"     |   "For The Last Week"   |
+
+### 
 
 ### 시도한 방식
 
