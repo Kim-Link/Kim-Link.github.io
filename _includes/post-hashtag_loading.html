@@ -1,11 +1,11 @@
 <div class="post-tags">
     {% if page.hash-tag %}
     <span class="tag-emoji"></span>
-        {% if page.type === "REcoding" %}
+        {% if page.type === 'REcoding' %}
             {% for tag in page.hash-tag %}
             <a href="/REcoding/?tag={{ tag }}"><span class="tag" data-tag="{{ tag }}">{{ tag }}</span></a>
             {% endfor %}
-        {% elif page.type === "LOading" %}
+        {% elif page.type === 'LOading' %}
             {% for tag in page.hash-tag %}
             <a href="/LOading/?tag={{ tag }}"><span class="tag" data-tag="{{ tag }}">{{ tag }}</span></a>
             {% endfor %}
