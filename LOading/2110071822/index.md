@@ -38,6 +38,10 @@ function solution(citations) {
 
 이렇게 했을때 테스트중 2개가 통과과 안된다. 하.. 빨리 풀려고 대충 생각한게 문젠가..
 
+<img src="/Users/wildrays/Desktop/Kim-Link.github.io/LOading/2110071822/img/1.jpeg" alt="1" style="zoom:50%;" />
+
+
+
 util함수를 만들어서 풀려고 했던게 이사단을 만든거 같다..
 
 
