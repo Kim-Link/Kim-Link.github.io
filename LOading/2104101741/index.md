@@ -9,8 +9,6 @@ writer: 000000
 post-header: true
 header-img: img/about.jpeg
 hash-tag: [Javascript, 객체지향, OOP, class, instance, 기술면접]
-
-
 ---
 
 
