@@ -12,14 +12,14 @@
   <!-- Google / Search Engine Tags -->
   <meta itemprop="name" content="{% if page.home == true %}{{ site.title }}{% elsif page.main == true %}{{ page.title }} | {{ site.title }}{% else %}{{ page.title }}{% endif %}">
   <meta itemprop="description" content="{% if page.home == true %}{{ site.description }}{% else %}{{ site:title }}{% endif %}">
-  <meta itemprop="image" content="{% if page.post-header == true or page.project-header == true %}{{ site.url }}{{ page.url }}{{ page.header-img }}{% elsif page.recruit == true %}{{ site.url }}{{'/meta/meta_recruit_image.png'}}{% else %}{{ site.url }}{{'/meta/meta_image.png'}}{% endif %}">
+  <meta itemprop="image" content="{% if page.post-header == true or page.project-header == true %}{{ site.url }}{{ page.url }}{{ page.header-img }}{% elsif page.recruit == true %}{{ site.url }}{% else %}{{ site.url }}{{'/meta/meta_image_01.png'}}{% endif %}">
 
   <!-- Facebook Meta Tags -->
   <!-- <meta property="og:url" content="{{ site.baseurl }}"> -->
   <meta property="og:type" content="{% if page.post-header == true or page.project-header == true %}article{% else %}website{% endif %}">
   <meta property="og:title" content="{% if page.home == true %}{{ site.title }}{% elsif page.main == true %}{{ page.title }} | {{ site.title }}{% else %}{{ page.title }}{% endif %}">
   <meta property="og:description" content="{% if page.home == true %}{{ site.description }}{% else %}{{ site:title }}{% endif %}">
-  <meta property="og:image" content="{% if page.post-header == true or page.project-header == true %}{{ site.url }}{{ page.url }}{{ page.header-img }}{% elsif page.recruit == true %}{{ site.url }}{{'/meta/meta_recruit_image.png'}}{% else %}{{ site.url }}{{'/meta/meta_image.png'}}{% endif %}">
+  <meta property="og:image" content="{% if page.post-header == true or page.project-header == true %}{{ site.url }}{{ page.url }}{{ page.header-img }}{% elsif page.recruit == true %}{{ site.url }}{% else %}{{ site.url }}{{'/meta/meta_image_01.png'}}{% endif %}">
   <meta property="og:image:width" content="1600">
   <meta property="og:image:height" content="900">
 
@@ -27,7 +27,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.home == true %}{{ site.title }}{% elsif page.main == true %}{{ page.title }} | {{ site.title }}{% else %}{{ page.title }}{% endif %}">
   <meta name="twitter:description" content="{% if page.home == true %}{{ site.description }}{% else %}{{ site:title }}{% endif %}">
-  <meta name="twitter:image" content="{% if page.post-header == true or page.project-header == true %}{{ site.url }}{{ page.url }}{{ page.header-img }}{% elsif page.recruit == true %}{{ site.url }}{{'/meta/meta_recruit_image.png'}}{% else %}{{ site.url }}{{'/meta/meta_image.png'}}{% endif %}">
+  <meta name="twitter:image" content="{% if page.post-header == true or page.project-header == true %}{{ site.url }}{{ page.url }}{{ page.header-img }}{% elsif page.recruit == true %}{{ site.url }}{% else %}{{ site.url }}{{'/meta/meta_image_01.png'}}{% endif %}">
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
