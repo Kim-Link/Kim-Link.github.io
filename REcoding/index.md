@@ -11,7 +11,7 @@ main: true
 <ul class="catalogue">
 {% assign sorted = site.pages | sort: 'date' | reverse | where: 'type', 'REcoding' %}
 {% for page in sorted %}
-{% include post-list_recoding.html %}
+{% include post-list.html %}
 {% endfor %}
 </ul>
 </div>
