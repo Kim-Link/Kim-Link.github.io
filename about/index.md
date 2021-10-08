@@ -11,10 +11,10 @@ title: 소개|Kim-Link
             <div class="content">
                 <h1 class="subtitle">Contacts</h1>
                 <ul class="culture">
-                    <li>email : thinkcrash@gmail.com</li>
-                    <li>github : https://github.com/Kim-Link</li>
-                    <li>mobile : +82-10-2547-8928</li>
-                    <li>blog : https://kim-link.github.io</li>
+                    <li>Email : thinkcrash@gmail.com</li>
+                    <li>Github : https://github.com/Kim-Link</li>
+                    <li>Mobile : +82-10-2547-8928</li>
+                    <li>Blog : https://kim-link.github.io</li>
                 </ul>
             </div>
         </div>
