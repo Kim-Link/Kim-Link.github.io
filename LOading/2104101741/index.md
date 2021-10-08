@@ -2,6 +2,7 @@
 layout: post
 type: LOading
 date: 2021-04-10 17:41
+draft: false
 category: Javascript
 title: OOP(Object Oriented Programming)가 무엇인가?(feat.class, super)
 subtitle: 객체지향 프로그래밍... 넌 뭐니...?
