@@ -4,12 +4,18 @@ type: LOading
 date: 2021-09-12 13:36
 category: Javascript
 title: 동기와 비동기
-subtitle: 슥- 보면 쉬운데 잘~ 보면 헷갈려
+
+subtitle: 대뇌야 괜찮니..?
+
 writer: 000000
 post-header: true
 header-img: img/about.jpeg
-hash-tag: [Javascript, 기술면접, Sync Async]
+
+hash-tag: [Javascript, 상식, Async]
 ---
+
+
+
 
 
 *동기와 비동기는 너무 헷갈린다.*
