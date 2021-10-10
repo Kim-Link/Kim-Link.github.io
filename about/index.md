@@ -12,7 +12,7 @@ title: 소개|Kim-Link
                 <h1 class="subtitle">Contacts</h1>
                 <ul class="culture">
                     <li>Email : thinkcrash@gmail.com</li>
-                    <li>Github : https://github.com/Kim-Link</li>
+                    <li>Github : <a href="https://github.com/Kim-Link" target="_blank">https://github.com/Kim-Link</a></li>
                     <li>Mobile : +82-10-2547-8928</li>
                     <li>Blog : https://kim-link.github.io</li>
                 </ul>
