@@ -21,9 +21,9 @@ hash-tag: [Algorithm, 피보나치 수열]
 
  
 
-\1. for문
+### 1. for문
 
-```
+```js
 function fibonacci(num) {
   let sum = [0, 1];
   if(num === 0){
@@ -56,9 +56,11 @@ function fibonacci(num) {
 }
 ```
 
-\2. 재귀 함수 사용
 
-```
+
+### 2. 재귀 함수 사용
+
+```js
 function fibonacci(num) {
   if( num <= 1){
     return num;
@@ -69,9 +71,9 @@ function fibonacci(num) {
 
  
 
-\3. 데이터 저장식
+### 3. 데이터 저장식
 
-```
+```js
 function fibonacci(n) {
   let first = 0;
   let second = 1;
