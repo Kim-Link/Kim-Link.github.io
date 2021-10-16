@@ -8,7 +8,7 @@ subtitle: 타입과 타입이 충돌할때...
 writer: 000000
 post-header: true
 header-img: img/about.jpeg
-hash-tag: [Typescript]
+hash-tag: [Typescript] 
 ---
 
 
