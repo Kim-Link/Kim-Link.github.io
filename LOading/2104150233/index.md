@@ -29,6 +29,8 @@ OOP를 쓰고 보니 너무 중구난방으로 쓴것같아서
 
 ## **개념**
 
+---
+
 **prototype은 뭔가?**
 
 사전적 의미로 원형; 본, 표준, 모범을 뜻한다.
@@ -39,11 +41,14 @@ OOP를 쓰고 보니 너무 중구난방으로 쓴것같아서
 
 
 
-<!-- ![1](/Users/wildrays/Desktop/Kim-Link.github.io/LOading/2104150233/img/1.jpeg) -->
+
+
+
 <img src="img/1.jpeg">
 
-
 ## **코드 작성**
+
+---
 
 ```
 function Espresso(){}
