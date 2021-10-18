@@ -70,3 +70,4 @@ function solution(n) {
 - 1부터 시작해서 숫자를 하나씩 더해서 같은 숫자가 나오면 카운트를 하나 올린다.
 - 더한 숫자가 n보다 크게 될 경우 break롤 반복문을 빠져 나온다.
 
+[링크] : https://programmers.co.kr/learn/courses/30/lessons/12924
