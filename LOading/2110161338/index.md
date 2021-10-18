@@ -1,10 +1,10 @@
 ---
 layout: post
 type: LOading
-date: 2021-10-15 11:27
+date: 2021-10-16 13:38
 category: Programmers
-title: 숫자의 표현
-subtitle: 굳이 이렇게 표현해야할까...허허...
+title: 행렬의 곱셈
+subtitle: 행렬을 언제 곱해 봤더라...
 writer: 000000
 post-header: true
 header-img: img/about.jpeg
