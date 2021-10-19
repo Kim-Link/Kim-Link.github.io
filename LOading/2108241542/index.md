@@ -51,7 +51,7 @@ hash-tag: [github, git, setting]
 7. $ git checkout -b dev
 8. $ git pull pair dev
 
-```
+```html
 <details>
 <summary>첫 작업 시 주의 사항</summary>
 <div markdown="1">       
@@ -86,7 +86,7 @@ hash-tag: [github, git, setting]
 7. (최신화) $ git pull pair dev
 8. 작업 착수를 위해 1번부터 반복합니다
 
-```
+```html
 <details>
 <summary>반복 작업 시 주의사항</summary>
 <div markdown="1">       
