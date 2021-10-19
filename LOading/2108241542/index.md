@@ -32,8 +32,7 @@ hash-tag: [github, git, setting]
   Master, Dev, feat/기능명 : branch 이름이다. Master는 배포전까지 건드리지 않는것으로 하고 포크 후 각자 branch이름은 feat/기능명으로 하고 push후 merge를 Dev로 해서 branch 관리를 한다.<br>
 이때 branch를 터미널을 사용해서 git clone을 하지 않고 .zip 파일로 다운받을 경우 연결이 끊어서 merge가 되지 않는 경우가 발생할수도 있으니 귀찮더라도 터미널을 이용하여 다운받는것을 추천한다.<br>
 왜 이렇게 branch 이름을 설정 하는지는 차후 git-flow에 대해 다시한번 블로깅 하겠다...만,<br>
-간추려 말하면 효율적으로 branch를 관리하기 위함이며 엄밀히 말하면 프로젝트 팀 내에서 정한 규칙이다.
-  </div>
+간추려 말하면 효율적으로 branch를 관리하기 위함이며 엄밀히 말하면 프로젝트 팀 내에서 정한 규칙이다.</div>
 
 
 
