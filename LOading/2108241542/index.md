@@ -51,25 +51,17 @@ hash-tag: [github, git, setting]
 7. $ git checkout -b dev
 8. $ git pull pair dev
 
-```html
 <details>
 <summary>첫 작업 시 주의 사항</summary>
-<div markdown="1">       
-
-1. Fork Repo : Repo를 내 github으로 포크를 먼저 해준다.
-
-1. git clone (fork repo URL) : 터미널을 사용하여 다운받을 장소(폴더)로 이동한뒤 해당 git clone을 한다. 이때 적어야할 URL은 퍼온 내 주소가 적힌 Fork가 된 주소이다.( 하..이거 존나 중요한데 접기안이라 강조가 안되네...나중에 안된다고 징징거리지 말고 여기에 니꺼주소 제대로 적었는지 확인하자 제발...)
-2. git remote add pair (main repo URL) : pair라는 이름으로 main repo URL을 연결된다. 이때 pair는 규칙으로 정한건데 한번 정한걸로 쭉 사용하게 되니 오타 나지 않도록 하자(pari 라던지...piar 라던지... 이거 한번 잘못하면 리모트를 다시하거나 프로젝트 끝날때 까지 저대로 사용해야되서 굉장히 불편한 일이 생긴다..)
-3. git remote -v : 연결된 remote 현황을 확인할수 있다.
-
-5 ~ 6. git add 와 git commit 하는 것이다. 정확한 정보는 git 사용법 자체에 대해서 설명하는 문서를 찾아보자.
-
-1. git checkout -b dev : 새로운 branch를 생성하게 된다. 이때 만들어진 repo는 1번에서 내 github으로 연결되어 있으니 push할때 내 github에도 repo가 생성되게 된다. 그리고 branch를 만들때의 코드를 그대로 가지고 오기 때문에 직전의 repo상태에 대해서 유의하자.(문제 많은 repo에서 새 branch를 만들고 그 위에 pull을 실행하면 conflict가 많이 나게되어 귀찮아 지는 경우가 생긴다.) 처음 실행하는 경우에는 코드가 없는 상태라 상관없긴하다.
-2. git pull pair dev: 생성된 새 branch에 pair로 연결된 repo의 dev 브랜치에서 pull을 당겨 온다.(pair가 되어 있지 않다면 piar자리에 URL을 직접 넣어도 되지만, 매번 URL을 직접 넣기가 힘들어 remote처리를 하는것이다.)
-
-</div>
-</details>
-```
+<div markdow>
+1. Fork Repo : Repo를 내 github으로 포크를 먼저 해준다.<br>
+2. git clone (fork repo URL) : 터미널을 사용하여 다운받을 장소(폴더)로 이동한뒤 해당 git clone을 한다. 이때 적어야할 URL은 퍼온 내 주소가 적힌 Fork가 된 주소이다.( 하..이거 존나 중요한데 접기안이라 강조가 안되네...나중에 안된다고 징징거리지 말고 여기에 니꺼주소 제대로 적었는지 확인하자 제발...)<br>
+3. git remote add pair (main repo URL) : pair라는 이름으로 main repo URL을 연결된다. 이때 pair는 규칙으로 정한건데 한번 정한걸로 쭉 사용하게 되니 오타 나지 않도록 하자(pari 라던지...piar 라던지... 이거 한번 잘못하면 리모트를 다시하거나 프로젝트 끝날때 까지 저대로 사용해야되서 굉장히 불편한 일이 생긴다..)<br>
+4. git remote -v : 연결된 remote 현황을 확인할수 있다.<br>
+5 ~ 6. git add 와 git commit 하는 것이다. 정확한 정보는 git 사용법 자체에 대해서 설명하는 문서를 찾아보자.<br>
+7. git checkout -b dev : 새로운 branch를 생성하게 된다. 이때 만들어진 repo는 1번에서 내 github으로 연결되어 있으니 push할때 내 github에도 repo가 생성되게 된다. 그리고 branch를 만들때의 코드를 그대로 가지고 오기 때문에 직전의 repo상태에 대해서 유의하자.(문제 많은 repo에서 새 branch를 만들고 그 위에 pull을 실행하면 conflict가 많이 나게되어 귀찮아 지는 경우가 생긴다.) 처음 실행하는 경우에는 코드가 없는 상태라 상관없긴하다.<br>
+8. git pull pair dev: 생성된 새 branch에 pair로 연결된 repo의 dev 브랜치에서 pull을 당겨 온다.(pair가 되어 있지 않다면 piar자리에 URL을 직접 넣어도 되지만, 매번 URL을 직접 넣기가 힘들어 remote처리를 하는것이다.)<br>
+  </div>
 
 
 
@@ -86,16 +78,15 @@ hash-tag: [github, git, setting]
 7. (최신화) $ git pull pair dev
 8. 작업 착수를 위해 1번부터 반복합니다
 
-```html
 <details>
 <summary>반복 작업 시 주의사항</summary>
-<div markdown="1">       
+<div markdow>
+  반복작업시 주의할 점은 새 branch 생성하는것을 잊어먹지 말자. <br>  처음에는 적응이 되지 않아 conflict가 많이 발생할것이다.  <br> 조금만 주의하면 conflict로 인한 귀찮음을 줄일수 있다.
+  </div>
 
-반복작업시 주의할 점은 새 branch 생성하는것을 잊어먹지 말자. 처음에는 적응이 되지 않아 conflict가 많이 발생할것이다. 조금만 주의하면 conflict로 인한 귀찮음을 줄일수 있다.
 
-</div>
-</details>
-```
+
+
 
 
 
