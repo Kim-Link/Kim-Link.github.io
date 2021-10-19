@@ -32,7 +32,7 @@ hash-tag: [github, git, setting]
   Master, Dev, feat/기능명 : branch 이름이다. Master는 배포전까지 건드리지 않는것으로 하고 포크 후 각자 branch이름은 feat/기능명으로 하고 push후 merge를 Dev로 해서 branch 관리를 한다.<br>
 이때 branch를 터미널을 사용해서 git clone을 하지 않고 .zip 파일로 다운받을 경우 연결이 끊어서 merge가 되지 않는 경우가 발생할수도 있으니 귀찮더라도 터미널을 이용하여 다운받는것을 추천한다.<br>
 왜 이렇게 branch 이름을 설정 하는지는 차후 git-flow에 대해 다시한번 블로깅 하겠다...만,<br>
-간추려 말하면 효율적으로 branch를 관리하기 위함이며 엄밀히 말하면 프로젝트 팀 내에서 정한 규칙이다.</div>
+간추려 말하면 효율적으로 branch를 관리하기 위함이며 엄밀히 말하면 프로젝트 팀 내에서 정한 규칙이다.</div></details>
 
 
 
@@ -59,7 +59,7 @@ hash-tag: [github, git, setting]
 5 ~ 6. git add 와 git commit 하는 것이다. 정확한 정보는 git 사용법 자체에 대해서 설명하는 문서를 찾아보자.<br>
 7. git checkout -b dev : 새로운 branch를 생성하게 된다. 이때 만들어진 repo는 1번에서 내 github으로 연결되어 있으니 push할때 내 github에도 repo가 생성되게 된다. 그리고 branch를 만들때의 코드를 그대로 가지고 오기 때문에 직전의 repo상태에 대해서 유의하자.(문제 많은 repo에서 새 branch를 만들고 그 위에 pull을 실행하면 conflict가 많이 나게되어 귀찮아 지는 경우가 생긴다.) 처음 실행하는 경우에는 코드가 없는 상태라 상관없긴하다.<br>
 8. git pull pair dev: 생성된 새 branch에 pair로 연결된 repo의 dev 브랜치에서 pull을 당겨 온다.(pair가 되어 있지 않다면 piar자리에 URL을 직접 넣어도 되지만, 매번 URL을 직접 넣기가 힘들어 remote처리를 하는것이다.)<br>
-  </div>
+  </div></details>
 
 
 
@@ -80,7 +80,7 @@ hash-tag: [github, git, setting]
 <summary>반복 작업 시 주의사항</summary>
 <div markdow>
   반복작업시 주의할 점은 새 branch 생성하는것을 잊어먹지 말자. <br>  처음에는 적응이 되지 않아 conflict가 많이 발생할것이다.  <br> 조금만 주의하면 conflict로 인한 귀찮음을 줄일수 있다.
-  </div>
+  </div></details>
 
 
 
