@@ -19,7 +19,7 @@ hash-tag: [생각충돌, 환경오염, 재활용품]
 
 여러 전시관이 있었고 주제도 여러개였다. 첫번째로 들어갔던 전시관의 주제는 환경문제에 대해 경각심을 던지는 내용이었다.
 
-<img src="/Users/wildrays/Desktop/Kim-Link.github.io/REcoding/2110221100/img/2.JPG" alt="2" style="zoom:15%;" />
+<img src="img/2.JPG" alt="2" style="zoom:15%;" />
 
 전시 관람후 드는 생각은,
 
@@ -83,7 +83,7 @@ hash-tag: [생각충돌, 환경오염, 재활용품]
 
    - 음료수 병 규제
 
-   <img src="/Users/wildrays/Desktop/Kim-Link.github.io/REcoding/2110221100/img/3.JPG" alt="3" style="zoom:10%;" />
+   <img src="img/3.JPG" alt="3" style="zoom:10%;" />
 
    얼마전 생수를 마시게 되었는데 이미 비닐을 제거한 회사들이 있다. 제품명은 음각으로 기록했다. 생수라서 가능한가 싶기도 하지만, 음료수 페트병들이 지향해야 하는 방향이라고 생각된다.
 
@@ -133,6 +133,6 @@ hash-tag: [생각충돌, 환경오염, 재활용품]
 
 맑은 공기와 좋은 환경을 후대에 유산으로 물려줄수 있지 않을까?
 
-<img src="/Users/wildrays/Desktop/Kim-Link.github.io/REcoding/2110221100/img/4.JPG" alt="IMG_1209" style="zoom:50%;" />
+<img src="img/4.JPG" alt="IMG_1209" style="zoom:50%;" />
 
 10년 뒤에도 20년 뒤에도 맑은 하늘을 보고 싶다.
