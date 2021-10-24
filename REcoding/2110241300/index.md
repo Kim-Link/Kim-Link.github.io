@@ -1,7 +1,7 @@
 ---
 layout: post
 type: REcoding
-date: 2021-10-22 11:00
+date: 2021-10-24 13:00
 draft: false
 think : true
 category: 생각충돌
@@ -12,7 +12,6 @@ post-header: true
 header-img : img/about.jpeg
 hash-tag: [생각충돌, 꿀팁]
 ---
-
 
 
 부산사람이랑 얘기할때 돼지국밥 얘기는 하지마라.
