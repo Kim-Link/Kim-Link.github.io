@@ -1,7 +1,7 @@
 ---
 layout: post
 type: LOading
-date: 2021-10-17 21:40
+date: 2021-10-18 10:37
 category: Typescript
 title: 타입 가드
 subtitle: 타입스크립트 똑또케
