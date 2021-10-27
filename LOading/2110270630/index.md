@@ -13,7 +13,7 @@ hash-tag: [기술면접, C/S]
 
 <br>
 
-### REST API 와 버전
+## REST API 와 버전
 
 RESTful API를 완벽하게 지키기는 힘들다.
 
@@ -31,10 +31,16 @@ api 버전을 넣는 방법중 적어도 옳은 방법은 없고, 3가지 틀린
 
 ⇒ 가장 좋은것은 회사에서 쓰는 것을 따라 쓰는것이 좋다.
 
-내가 선택할 규약은 두번째 방법이다.
+내가 혼자 한다면 선택할 규약은 두번째 방법이다.
 
-있던 헤더를 고치는게 아니라 새로운 헤더를 넣는것이다.
+그 이유는 일단 URL이 바뀌지 않는다. url이 바뀌지 않으니까 api가 아니라 웹사이트 api가 되더라도 search optimagation이 깨지지 않는다. 
 
-일단 URL이 바뀌지 않는다. url이 바뀌지 않으니까 api가 아니라 웹사이트 api가 되더라도 search optimagation이 깨지지 않는다.
+그리고 클라이언트에게 눈에 보이지 않고 숨겨져 있기 때문에 더 깔끔하다고 생각된다.
 
-그리고 클라이언트에게 눈에 보일 필요가 없다.
+<br>
+
+<br>
+
+많은 사람들이 REST API를 사용한다면  REST API version control 또한 라이브러리로 관리하는 tool이 따로 개발되지 않을까 생각한다.
+
+[참고 링크] : https://www.troyhunt.com/your-api-versioning-is-wrong-which-is/
