@@ -18,7 +18,7 @@ REST api는 정보들이 주고 받아지는데 있어서 개발자들 사이에
 
 <br>
 
-API 란?
+## API 란?
 
 ------
 
@@ -28,7 +28,7 @@ Application Programming Interface. 소프트웨어가 다른 소프트웨어로 
 
 <br>
 
-REST api란?
+## REST API 란?
 
 ------
 

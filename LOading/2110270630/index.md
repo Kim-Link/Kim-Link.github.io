@@ -1,7 +1,7 @@
 ---
 layout: post
 type: LOading
-date: 2021-10-27 06:21
+date: 2021-10-27 06:30
 category: Programmers
 title: REST API 버전관리는 어떻게 해야하나?
 subtitle: 버전도 있었냐...
@@ -10,6 +10,8 @@ post-header: true
 header-img: img/about.jpeg
 hash-tag: [기술면접, C/S]
 ---
+
+<br>
 
 ### REST API 와 버전
 
@@ -23,7 +25,7 @@ api가 버전이 있다. 이버전을 어떻게 할것인가?
 
 api 버전을 넣는 방법중 적어도 옳은 방법은 없고, 3가지 틀린 방법이 있다.
 
-*(셋다 틀렸는데 세가지중 하나를 택해야 한다. 각 방법마다 단점이 뚜렷하기 때문에 틀렸다고 표현한다.)*
+*( 각 방법마다 단점이 뚜렷하기 때문에 틀렸다고 표현한다.)*
 
 1. api앞에 번호를 넣는것.
 2. URL은 똑같은데 req를 보낼때 header를 보통 만든다. 이 header안에 자기만의 entry(key,value)를 넣는다.
