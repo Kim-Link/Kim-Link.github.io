@@ -2,7 +2,7 @@
 layout: post
 type: LOading
 date: 2021-10-27 23:24
-category: Programmers
+category: Computer Science
 title: CAP 이론에 대하여
 subtitle: CAP 그거 쓰는거 아니에요~?..
 writer: 000000

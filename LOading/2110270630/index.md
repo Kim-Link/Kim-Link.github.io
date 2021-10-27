@@ -2,7 +2,7 @@
 layout: post
 type: LOading
 date: 2021-10-27 06:30
-category: Programmers
+category: Computer Science
 title: REST API 버전관리는 어떻게 해야하나?
 subtitle: 버전도 있었냐...
 writer: 000000

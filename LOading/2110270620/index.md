@@ -2,7 +2,7 @@
 layout: post
 type: LOading
 date: 2021-10-27 06:20
-category: Programmers
+category: Computer Science
 title: REST API가 뭔가요?
 subtitle: 기본중에 기본이었어...
 writer: 000000
