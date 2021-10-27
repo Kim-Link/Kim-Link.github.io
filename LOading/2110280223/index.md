@@ -1,7 +1,7 @@
 ---
 layout: post
 type: LOading
-date: 2021-10-19 02:23
+date: 2021-10-28 02:23
 category: Typescript
 title: 맵드타입에 대해서
 subtitle: 이런것도 되다니...
