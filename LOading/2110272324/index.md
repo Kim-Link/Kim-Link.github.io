@@ -19,7 +19,7 @@ hash-tag: [기술면접, C/S, CAP 이론]
 
 분산 DB 시스템은 일관성(Consistenty), 가용성(Available), 분할내성(Partition Tolerence) 3가지 특성 모두를 만족시킬수 없고 2개만 동시에 수행 가능하다는 이론이다.
 
-<img src="/Users/wildrays/Desktop/Kim-Link.github.io/LOading/2110272324/img/1.jpeg" alt="1" style="zoom:0%;" />
+<img src="img/1.jpeg" alt="1" style="zoom:0%;" />
 
 - ### 일관성(Consistenty)
 
