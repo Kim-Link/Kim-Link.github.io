@@ -8,7 +8,7 @@ subtitle: CAP 그거 쓰는거 아니에요~?..
 writer: 000000
 post-header: true
 header-img: img/about.jpeg
-hash-tag: [기술면접, C/S, CAP 이론]
+hash-tag: [기술면접, CAP 이론]
 ---
 
 <br>
