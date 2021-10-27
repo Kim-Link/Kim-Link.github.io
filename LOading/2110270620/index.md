@@ -1,7 +1,7 @@
 ---
 layout: post
 type: LOading
-date: 2021-10-27 06:21
+date: 2021-10-27 06:20
 category: Programmers
 title: REST API가 뭔가요?
 subtitle: 기본중에 기본이었어...
@@ -20,8 +20,6 @@ REST api는 정보들이 주고 받아지는데 있어서 개발자들 사이에
 
 ## API 란?
 
-------
-
 Application Programming Interface. 소프트웨어가 다른 소프트웨어로 부터 지정된 형식으로 요청, 명령을 받을 수 있는 수단이다.
 
 쉽게 말해 "컴퓨터의 기능을 실행시키는 방식" 이다.
@@ -29,8 +27,6 @@ Application Programming Interface. 소프트웨어가 다른 소프트웨어로 
 <br>
 
 ## REST API 란?
-
-------
 
 REST는 Representational State Transfer의 약자이다.
 
@@ -68,7 +64,7 @@ DELETE는 정보를 삭제할때 사용한다.
 
 형식이기 때문에 기술이나 언어에 구애받지 않는다. 앱을 만들든, 웹사이트를 만들든 소프트웨어간 HTTP로 정보를 주고 받는 부분이 있다면 RESTful한 서비스를 만들수가 있다.
 
-<br>
+<br><br>
 
 ### 그래서 REST API가 뭔가요?
 
