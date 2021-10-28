@@ -8,7 +8,7 @@ subtitle: 타입스크립트 똑또케
 writer: 000000
 post-header: true
 header-img: img/about.jpeg
-hash-tag: [Typescrip, 타입 가드] 
+hash-tag: [Typescrip, 타입가드] 
 ---
 
 

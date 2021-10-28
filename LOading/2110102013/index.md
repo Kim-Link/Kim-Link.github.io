@@ -8,7 +8,7 @@ subtitle: 이넘...너 뭐하는 놈이냐..!
 writer: 000000
 post-header: true
 header-img: img/about.jpeg
-hash-tag: [Typescript, enum 타입]
+hash-tag: [Typescript, enum]
 ---
 
 

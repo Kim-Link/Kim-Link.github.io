@@ -9,7 +9,7 @@ writer: 000000
 post-header: true
 header-img: img/about.jpeg
 
-hash-tag: [기술면접, REST API]
+hash-tag: [기술면접, RESTapi]
 ---
 
 REST api는 정보들이 주고 받아지는데 있어서 개발자들 사이에 널리 쓰이는 일종의 형식이다.

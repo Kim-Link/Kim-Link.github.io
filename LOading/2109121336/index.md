@@ -11,7 +11,7 @@ writer: 000000
 post-header: true
 header-img: img/about.jpeg
 
-hash-tag: [Javascript, 상식, Sync Async]
+hash-tag: [Javascript, 상식, SyncAsync]
 ---
 
 

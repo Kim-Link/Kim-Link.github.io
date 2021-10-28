@@ -8,7 +8,7 @@ subtitle: 버전도 있었냐...
 writer: 000000
 post-header: true
 header-img: img/about.jpeg
-hash-tag: [기술면접, REST API]
+hash-tag: [기술면접, RESTapi]
 ---
 
 <br>

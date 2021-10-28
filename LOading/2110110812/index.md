@@ -8,7 +8,7 @@ subtitle: 함수에서는 타입을 어떻게 정의할까?
 writer: 000000
 post-header: true
 header-img: img/about.jpeg
-hash-tag: [Typescript, 함수 타입]
+hash-tag: [Typescript, 함수타입]
 ---
 
 
