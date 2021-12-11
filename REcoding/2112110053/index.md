@@ -1,7 +1,7 @@
 ---
 layout: post
 type: REcoding
-date: 2021-11-07 09:37
+date: 2021-12-11 00:53
 draft: false
 think : true
 category: 생각충돌
