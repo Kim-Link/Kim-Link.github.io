@@ -17,8 +17,9 @@ hash-tag: [생각충돌]
 <iframe width="640" height="360" src="https://www.youtube.com/embed/5zM8HW3qA7A" 
 frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
 <details>
-<summary> 좋은 날이 올꺼야 가사</summary>
+<summary> 좋은 날이 올꺼야</summary>
 <div markdown="1">       
+
 걱정말아요 그대 반드시 이유가 있겠지
 
 실패하더라도 실망하지말고 인생 다시 살어
@@ -148,5 +149,52 @@ frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 </details>
 
+<!-- 다음 내용 -->
+
 <iframe width="640" height="360" src="https://www.youtube.com/embed/v4u8N3Ik1F4" 
 frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
+
+<details>
+<summary> 거꾸로 강을 거슬러 오르는 저 힘찬 연어들 처럼 </summary>
+<div markdown="1">      
+ 
+흐르는 강물을 거꾸로 거슬러 오르는 연어들의
+
+도무지 알 수 없는 그들만의 신비한 이유처럼
+
+그 언제서 부터인가 걸어 걸어 걸어 오는 이 길
+
+앞으로 얼마나 더 많이 가야만 하는지
+
+여러 갈래길중 만약에 이 길이 내가 걸어 가고 있는
+
+돌아서 갈 수밖에 없는 꼬부라진 길 일지라도
+
+딱딱 해지는 발바닥 걸어 걸어 걸어 가다보면 저 넓은
+
+꽃밭에 누워서 난 쉴수 있겠지
+
+여러 갈래길중 만약에 이길이 내가 걸어가고 있는
+
+막막한 어둠으로 별빛조차 없는 길 일지라도
+
+포기할순 없는거야 걸어 걸어 걸어 가다보면 뜨겁게
+
+날 위해 부서진 햇살을 보겠지
+
+그래도 나에겐 너무나도 많은 축복이란걸 알아
+
+수없이 많은 걸어 가야할 내 앞길이 있지 않나
+
+그래 다시 가다보면 걸어 걸어 걸어 가다보면
+
+어느날 그 모든 일들을 감사해 하겠지
+
+보이지도 않는 끝 지친어깨 떨구고 한숨짓는
+
+그대 두려워 말아요 거꾸로 강을 거슬러 오르는
+
+저 힘찬 연어들처럼 걸어가다 보면 걸어가다 보면...
+
+</div>
+</details>
