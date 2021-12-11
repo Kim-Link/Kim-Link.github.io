@@ -6,7 +6,7 @@ draft: false
 think : true
 category: 생각충돌
 title: 그 순간, 그 노래
-subtitle: 아직 포기할때가 아니다.
+subtitle: 음악에 묻은 향기...
 writer: 000000
 post-header: true
 header-img : img/about.jpeg
