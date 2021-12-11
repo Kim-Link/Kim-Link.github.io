@@ -156,7 +156,8 @@ frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
 
 <details>
 <summary> 거꾸로 강을 거슬러 오르는 저 힘찬 연어들 처럼 </summary>
-<div markdown="1">       
+<div markdown="1">
+
 흐르는 강물을 거꾸로 거슬러 오르는 연어들의
 
 도무지 알 수 없는 그들만의 신비한 이유처럼
