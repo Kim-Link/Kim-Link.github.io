@@ -12,7 +12,7 @@ post-header: true
 header-img : img/about.jpeg
 hash-tag: [생각충돌]
 ---
-|:<iframe width="640" height="360" src="https://www.youtube.com/embed/5zM8HW3qA7A" frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>:|
+|<iframe width="640" height="360" src="https://www.youtube.com/embed/5zM8HW3qA7A" frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>|
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/5zM8HW3qA7A" 
 frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
