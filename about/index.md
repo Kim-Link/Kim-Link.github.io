@@ -37,7 +37,7 @@ title: 소개|Kim-Link
             <div class="content">
                 <h1 class="subtitle">Skills</h1>
                 <ul class="environment">
-                    <li><b>Strong :</b> Javascript,Node.js, Express, MySQL, Sequelize, Multer</li>
+                    <li><b>Strong :</b> Javascript,Node.js, Express, MySQL, Sequelize</li>
                     <li><b>Knowledgeable :</b>Typescript, AWS(EC2, Load Balancer, RDS, S3, CloudFront), PM2, React, Redux, HTML, CSS</li>
                     <li><b>ETC :</b>  GitHub,Notion, Slack, Discord, Miro</li>
                 </ul>
