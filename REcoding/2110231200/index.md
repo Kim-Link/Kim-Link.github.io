@@ -4,7 +4,6 @@ type: REcoding
 date: 2021-10-23 12:00
 draft: false
 think : true
-type : "recoding"
 category: 생각충돌
 title: 어떤 사람과 일하고 싶나요?
 subtitle: feat. 꼴보기 싫은 동료

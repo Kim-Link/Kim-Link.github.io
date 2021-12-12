@@ -4,7 +4,6 @@ type: REcoding
 date: 2021-10-06 17:30
 draft: false
 think : true
-type : "recoding"
 category: 생각충돌
 title: 생각충돌이 무슨뜻인가요?
 subtitle: 생각과 생각이 부딛힌다.

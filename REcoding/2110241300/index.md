@@ -4,7 +4,6 @@ type: REcoding
 date: 2021-10-24 13:00
 draft: false
 think : true
-type : "recoding"
 category: 생각충돌
 title: 부산돼지국밥... 어디까지 먹어 봤니...?
 subtitle: 부산사람 앞에서 함부로 돼지국밥 얘기하지 마라
