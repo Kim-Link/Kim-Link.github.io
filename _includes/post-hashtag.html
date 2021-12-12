@@ -1,7 +1,7 @@
 <div class="post-tags">
     {% if page.hash-tag %}
     <span class="tag-emoji"></span>
-        {% if page.think == true %}
+        {% if page.think == recoding %}
             {% for tag in page.hash-tag %}
             <a href="/REcoding/?tag={{ tag }}"><span class="tag" data-tag="{{ tag }}">{{ tag }}</span></a>
             {% endfor %}

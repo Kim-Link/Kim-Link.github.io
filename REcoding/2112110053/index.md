@@ -4,6 +4,7 @@ type: REcoding
 date: 2021-12-11 00:53
 draft: false
 think : true
+type : "recoding"
 category: 생각충돌
 title: 그 순간, 그 노래
 subtitle: 음악에 묻은 향기...
@@ -167,7 +168,7 @@ frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 </details>
 
-<br><br>
+<br>
 
 대학교를 졸업하고 나서,
 
@@ -233,7 +234,7 @@ frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 </details>
 
-<br><br>
+<br>
 
 퇴사를 결심하고 출퇴근 할때 수없이 들었던것 같다.
 

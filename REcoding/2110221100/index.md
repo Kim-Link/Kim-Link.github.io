@@ -4,6 +4,7 @@ type: REcoding
 date: 2021-10-22 11:00
 draft: false
 think : true
+type : "recoding"
 category: 생각충돌
 title: 어떻게 버릴것인가?(feat. 환경오염)
 subtitle: 재활용품에 대한 고찰
