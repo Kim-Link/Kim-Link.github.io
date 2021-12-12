@@ -166,7 +166,7 @@ frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
 
 </div>
 </details>
-
+<br>
 대학교를 졸업하고 나서,
 
 취업준비를 하느라 지쳐 있을때, 자주 들었던 노래다.
@@ -230,7 +230,7 @@ frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
 
 </div>
 </details>
-
+<br>
 퇴사를 결심하고 출퇴근 할때 수없이 들었던것 같다.
 
 나도 무서웠다.
