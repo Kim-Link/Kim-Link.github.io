@@ -4,7 +4,7 @@ type: REcoding
 date: 2021-12-11 00:53
 draft: false
 think : true
-type : "recoding"
+type : recoding
 category: 생각충돌
 title: 그 순간, 그 노래
 subtitle: 음악에 묻은 향기...
