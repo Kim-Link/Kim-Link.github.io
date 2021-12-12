@@ -1,6 +1,6 @@
 <div class="post-list-tags">
     {% if page.hash-tag %}
-        {% if page.think == true %}
+        {% if page.recoding == true %}
             {% for tag in page.hash-tag %}
                 <a href="/REcoding/?tag={{ tag }}"><span class="tag" data-tag="{{ tag }}">{{ tag }}</span></a>
             {% endfor %}
