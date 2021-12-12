@@ -12,7 +12,25 @@ post-header: true
 header-img : img/about.jpeg
 hash-tag: [생각충돌]
 ---
-|<iframe width="640" height="360" src="https://www.youtube.com/embed/5zM8HW3qA7A" frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>|
+
+
+큰 결심을 하거나 변화를 겪기전,
+
+항상 반복해서 듣게 되는 노래 들이 있었다.
+
+이전부터 알고 있던 노래지만,
+
+어느 순간, 순간을 함께 하는 노래가 있다.
+
+내가 혼란스러울때 반복해서 듣던 노래들은
+
+시간이 지나 다시 노래를 듣게 되었을때,
+
+그 순간의 감정과 생각들이 기억이 난다.
+
+
+
+# 좋은날이 올거야 - 싸이(feat.전인권)
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/5zM8HW3qA7A" 
 frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
@@ -149,7 +167,21 @@ frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 </details>
 
+대학교를 졸업하고 나서,
+
+취업준비를 하느라 지쳐 있을때, 자주 들었던 노래다.
+
+현실적인 가사와,
+
+현실적인 나의 현실을 인정하면서도,
+
+버티다 보면 좋은날이 올거라는 이 가사가
+
+내 정서를 흔들면서도 안정시켜 줬다.
+
 <!-- 다음 내용 -->
+
+# 거꾸로 강을 거슬러 오르는 저 힘찬 연어들 처럼 - 강산에
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/v4u8N3Ik1F4" 
 frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
@@ -198,3 +230,41 @@ frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
 
 </div>
 </details>
+
+퇴사를 결심하고 출퇴근 할때 수없이 들었던것 같다.
+
+나도 무서웠다.
+
+안정적인 직장을 뒤로하고 새로운 도전을 한다는것이.
+
+그래서 이 노래를 반복해서 들으면서
+
+불안한 감정을 잠재웠엇던 같다.
+
+잘될거야.
+
+걸어 걸어 가다보면 저 넓은 꽃밭에 누워서 난 쉴수 있으거야 라며.
+
+지금 너무 만족스러운 생활을 하고 있지만,
+
+이 결심이 흔들릴때나 이 일이 힘들때
+
+다시 한번 여기 와서
+
+이때의 생각을 다시 한번 되뇌어 봐야 겠다.
+
+<br>
+
+선택을 할때 
+
+맞는 선택을 하고 있는것을 알고 있지만,
+
+주저하게 될때가 있다.
+
+음악에 대해서 잘모르지만
+
+나는 음악을 내 감정을 조절하는 방법으로 사용한다.
+
+이 두 노래 말고도 여러가지 노래들을 종종 올려놓고
+
+감상하러 와야 겠다.
