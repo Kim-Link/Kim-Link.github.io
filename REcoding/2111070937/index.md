@@ -4,6 +4,7 @@ type: REcoding
 date: 2021-11-07 09:37
 draft: false
 think : true
+recoding : true
 category: 생각충돌
 title: 포기하기 전에.
 subtitle: 아직 포기할때가 아니다.
