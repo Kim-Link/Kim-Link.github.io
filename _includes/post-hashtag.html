@@ -10,5 +10,10 @@
             <a href="/LOading/?tag={{ tag }}"><span class="tag" data-tag="{{ tag }}">{{ tag }}</span></a>
             {% endfor %}
         {% endif %}
+        {% if page.studing == true %}
+            {% for tag in page.hash-tag %}
+                <a href="/STuding/?tag={{ tag }}"><span class="tag" data-tag="{{ tag }}">{{ tag }}</span></a>
+            {% endfor %}
+        {% endif %}
     {% endif %}
 </div>
