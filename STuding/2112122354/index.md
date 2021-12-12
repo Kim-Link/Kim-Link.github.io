@@ -1,6 +1,6 @@
 ---
 layout: post
-type: REcoding
+type: STuding
 date: 2021-12-12 23:54
 draft: false
 studing : true
