@@ -3,7 +3,7 @@ layout: post
 type: LOading
 date: 2021-12-13 12:52
 category: TIL
-title: TIL_morgan, crypto, 429Error
+title: [TIL] morgan, crypto, 429Error
 subtitle: 어설프게 아는것 = 모르는것
 writer: 000000
 post-header: true
