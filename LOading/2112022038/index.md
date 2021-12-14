@@ -2,7 +2,7 @@
 layout: post
 type: LOading
 date: 2021-12-02 20:38
-category: Computer Science
+category: JavaScript
 title: callback, promise, async
 subtitle: 가깝고도 먼...
 writer: 000000
