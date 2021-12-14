@@ -15,6 +15,8 @@ Today I Learn.
 
 잘못한 부분을 반복해서 잘못하지 말자.
 
+<br>
+
 ### 오늘 지적 받은 부분
 
 -   morgan 에 대한 이해
@@ -26,6 +28,8 @@ Today I Learn.
 -   기존 API를 가능한 이해하려고 하고, 이해가 되지 않는다면 이해되지 않는 부분에 대해 물어보자.
 -   git 브랜치 관리할때 fix에서 찾아야 할 코드를 feat에서 찾음. 정신 차려야 할듯.
 
+<br><br>
+
 ### Morgan
 
 Q. Morgan이 뭔가요?
@@ -36,13 +40,15 @@ Q. 왜 사용하나요?
 
 일반적으로 요청에 대한 에러가 발생하거나 현재 요청이 제대로 들어가고 있는지에 대해 확인하고 싶을때 사용한다.
 
-Q. 왜 크롤러에서는 morgan을 사용하지 않나?
+<br><br>
 
 ### Crypto
 
 Q. Crypto가 뭔가요?
 
 javascript에서 [해쉬 방식의 암호화](https://kim-link.github.io/LOading/2109082259/)를 할 수 있도록 해주는 Node.js 패키지이다.
+
+<br>
 
 Q. 어떻게 사용되었나요?
 
@@ -104,6 +110,8 @@ async function getKeywordAmount(keyword) {
 위 함수에서 header 부분을 보면 'X-Signature' 가 필요로 한다. 이 X-Signature를 값을 구하기 위해서 readNaverAdAPI함수로 부터 SECRET_KEY를 받아와서 암호화 해서 보낸다.
 
 여러종류의 해쉬암호화 방식이 있는데 보안을 위해 crypto를 사용한다.
+
+<br><br>
 
 ### 429 Error
 
