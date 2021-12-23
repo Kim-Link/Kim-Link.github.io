@@ -34,11 +34,11 @@ hash-tag: [EventLoop]
 
 2.  소프트웨어 관점에서의 컨텍스트
   그때그때 상황에 맞게끔, 실행/판단/결정 등을 해야하는 부분
-  
-> -   할당 연산자(=) 다음에는, 표현식 컨텍스트가 옴
-> -  if 조건문 다음에 { 가 오면, 문장 컨텍스트가 옴
-> -   컨텍스트 메뉴 (context menu)  
->  → 그 메뉴를 호출한 동작 및 상황에 따라, 다르게 선택 사항들이 나열되는 메뉴
+
+    > -   할당 연산자(=) 다음에는, 표현식 컨텍스트가 옴
+    > -  if 조건문 다음에 { 가 오면, 문장 컨텍스트가 옴
+    > -   컨텍스트 메뉴 (context menu)  
+    >  → 그 메뉴를 호출한 동작 및 상황에 따라, 다르게 선택 사항들이 나열되는 메뉴
 
 3.  자바스크립트 실행 컨텍스트(Execution Context)
 
@@ -55,12 +55,12 @@ hash-tag: [EventLoop]
     <aside> 💡 자바스크립트 엔진이 실행 가능한 코드를 만나면, 그 코드를 평가해서, 실행 컨텍스트를 만든다.
     </aside>
  
-    > 함수를 호출하면, 
-    → 현재 실행중인 코드의 작업을 잠시 멈추고, 
-    → 실행 컨텍스트 영역을 생성하고, 
-    → 이때 생성된 함수 실행 컨텍스트는 실행 컨텍스트 스택에 푸시되고, 
-    → 실행 흐름이 그 실행 컨텍스트로 이동하고, 
-    → 함수 안팎의 환경을 찾아내어, 실행되어지며, 
+    > 함수를 호출하면,  
+    → 현재 실행중인 코드의 작업을 잠시 멈추고,  
+    → 실행 컨텍스트 영역을 생성하고,  
+    → 이때 생성된 함수 실행 컨텍스트는 실행 컨텍스트 스택에 푸시되고,  
+    → 실행 흐름이 그 실행 컨텍스트로 이동하고,  
+    → 함수 안팎의 환경을 찾아내어, 실행되어지며,  
     → 함수 실행이 종료되면, 실행 컨텍스트 스택에서 팝되어 제거됨
     
 
@@ -105,9 +105,9 @@ third();
 
 내가 앞에 쓴 글중 async/await 을 설명하면서 자바스크립트는 기본적으로 비동기 논블럭킹 언어이며, 이 생각을 디폴트 값으로 가지고 있어야 한다고 했었다.
 
-_사실 자바스크립트 엔진(V8) 자체는 동기적이다.(힝 속았지?)_
+*사실 자바스크립트 엔진(V8) 자체는 동기적이다.(힝 속았지?)*
 
-그런데 자바스크립트는 싱글쓰레드 인데 어떻게 비동기 논블럭킹 가능할까?
+자바스크립트는 싱글쓰레드인데 어떻게 비동기 논블럭킹 가능할까?
 
 그 이유는 web api 와 이벤트 루프를 활용하기 때문이다.
 
@@ -118,16 +118,16 @@ _사실 자바스크립트 엔진(V8) 자체는 동기적이다.(힝 속았지?)
 -   V8은 크롬과 Node.js에서 사용되는 구글이 만든 엔진
 -   _Memory Heap_ 과 _Call Stack_ 으로 구성
 -   자바스크립트 코드를 읽고 해석해서 실행하는 것을 담당
-    -   기본적으로 웹 브라우저와 Node.js에 탑재되어 있습니다.
+    -   기본적으로 웹 브라우저와 Node.js에 탑재되어 있다.
 -   Memory Heap : 코드에서 선언된 변수나 함수 등이 담겨져 있다.
 -   Call Stack : 코드가 실행될 때 쌓이는 곳
 
 ### web api
 
--   DOM, Ajax, setTimeout(), Event Handler 등과 같이 웹 브라우저에서 제공하는 기능들을 말합니다.
--   Call Stack에서 실행된 비동기 함수는 Web API를 호출하고, Web API는 콜백함수를 Callback Queue에 집어 넣습니다.
+-   DOM, Ajax, setTimeout(), Event Handler 등과 같이 웹 브라우저에서 제공하는 기능들이다.
+-   Call Stack에서 실행된 비동기 함수는 Web API를 호출하고, Web API는 콜백함수를 Callback Queue에 집어 넣는다.
 
-Javascript Engine의 싱글 스레드 외에 스레드를 지원해줍니다. 따라서 자바스크립트에서 비동기를 할 수 있게 해줍니다.
+Javascript Engine의 싱글 스레드 외에 스레드를 지원해 준다. 따라서 자바스크립트에서 비동기를 할 수 있게 해준다.
 
 ### **Callback Queue**(Task Queue)
 
@@ -135,29 +135,34 @@ Javascript Engine의 싱글 스레드 외에 스레드를 지원해줍니다. �
 -   Task Queue는 MicroTaskQueue와 MacroTaskQueue로 나뉨.
 -   MicroTaskQueue는 MacroTaskQueue보다 더 우선순위를 가지고 있기 때문에 먼저 Call Stack으로 전달되고 실행되게 된다.
 
+<br>
+
 <img src="img/3.gif" alt="1" style="zoom:80%;" />
+
+<br>
 
 ### 이벤트루프
 
--   **이벤트 루프**는 이 전체 시스템에서 아주 단순한 일을 하는 작은 요소입니다.
--   이벤트 루프의 역할은 Call Stack과 Callback Queue를 주시하는 것입니다.
--   Stack이 비어있으면, Callback Queue에 첫번째 콜백을 Stack에 쌓아 효과적으로 실행할 수 있게 해줍니다.
+-   이벤트 루프는 이 전체 시스템에서 아주 단순한 일을 하는 작은 요소이다.
+-   이벤트 루프의 역할은 Call Stack과 Callback Queue를 주시하는 것이다.
+-   Stack이 비어있으면, Callback Queue에 첫번째 콜백을 Stack에 쌓아 효과적으로 실행할 수 있게 해준다.
 
 ### 함수 실행 Flow
 
-1.  함수 실행 ⇒ 실행 컨텍스트가 생성되며 스택에 쌓임
+1.  함수 실행  
+    ⇒ 실행 컨텍스트가 생성되며 스택에 쌓임
 2.  스텍에서 동기함수이냐 비동기 함수이냐 판단
-3.  비동기 함수일때 결과값 web api로 바로 전송되어 연산이 진행됨. 
-	⇒ 스택에서 해당 함수 없어짐.
+3.  비동기 함수일때 결과값 web api로 바로 전송되어 연산이 진행됨  
+	⇒ 스택에서 해당 함수 없어진다.
 4.  web api 에서 멀티스레드로 해당 함수들 결과 값들을 큐로 전송
     -   wep api에서는 멀티스레드이기 때문에 빨리 끝나는 함수 부터 큐에 쌓인다.
 5.  스택에서는 나머지 함수들 계속 진행
 6.  큐에 있는 함수들은 스택에 있는 함수가 다 실행되어 없어질때까지 기다림
-    -   이때 스텍에 함수가 남아있는지 안남아 있는지 확인하는 것이 이벤트 루프
+    -   이때 스텍에 함수가 남아있는지 안남아 있는지 확인하는 것이 **이벤트 루프**
 7.  이벤트 루프를 통해 스택에 함수들이 다 없어지고 나면 마이크로 큐 부터 순차적으로 큐에서 스택으로 전달됨
-    -   마이크로 큐 ⇒ 일반적인 promise 함수들
-    -   매크로 큐 ⇒ set으로 시작하는 함수들
-    -   자세한 구분은 다르지만 대~~충 이렇게 정의됨.
+    -   마이크로 큐 : 일반적인 promise 함수들
+    -   매크로 큐 : set으로 시작하는 함수들
+        → 자세한 구분은 다르지만 대~~충 이렇게 정의됨.
 
 ### 내가 만든 예제
 
@@ -190,7 +195,7 @@ delay()
 
 ```
 
--   결과값
+-   코드 실행 결과
 
 ```
 1
@@ -221,31 +226,28 @@ baz in setTimeout in setTimeout! 5초!
     a.  큐로 간 setTimeout(bas, 0) 은 console.log('baz!')와 setTimeout() 두개를 큐에 쌓아 놓음
 3.  delay() 함수 진행
     
-    a.  for문 진행 ⇒ `콘솔로그 찍혀 나옴 : 1,2,3,4,5,6,7,8,9,10`
-    b.  setTimeout ⇒ wep api로 전송
-    c.  console.log('delay')⇒ `콘솔로그 찍혀 나옴 : delay`
-    d.  delay가 콜스텍에서 삭제됨
+    a.  for문 진행 ⇒ `콘솔로그 찍혀 나옴 : 1,2,3,4,5,6,7,8,9,10`  
+    b.  setTimeout ⇒ wep api로 전송  
+    c.  console.log('delay')⇒ `콘솔로그 찍혀 나옴 : delay`  
+    d.  delay가 콜스텍에서 삭제됨  
 4.  빈 콜스텍은 이벤트루프가 확인함
     
 5.  큐에 쌓여 있던 console.log('baz!')와 setTimeout() 을 콜스택으로 전송
     
-    a.  console.log('baz!') ⇒ `콘솔로그 찍혀 나옴 : baz`
+    a.  console.log('baz!') ⇒ `콘솔로그 찍혀 나옴 : baz`  
     b.  setTimeout() ⇒ wep api로 전송
 6.  현재 wep api 에서는 두개의 함수가 진행되고 있음 : 8초, 8.5초
     
-    a.  먼저 끝나는 8초가 큐에 갔다가 비어있는 스택으로 전송됨
-        
-        ⇒ `콘솔로그 찍혀 나옴 : delay in setTimeout! 8초!`
+    a.  먼저 끝나는 8초가 큐에 갔다가 비어있는 스택으로 전송됨  
+        : `콘솔로그 찍혀 나옴 : delay in setTimeout! 8초!`
         
     b.  뒤어 끝나는 8초.5가 큐에 갔다가 비어있는 스택을 이벤트 루프가 확인함
         
-    c.  8.5초 안에는 console.log("baz in setTimeout! 8.5초!") 와 setTimeout이 있음
-        
-        1.  콘솔로그 찍혀 나옴 : baz in setTimeout! 8.5초
-        2.  setTimeout() ⇒ wep api로 전송
-7.  wep api에서 함수진행이 끝난뒤 큐에 갔다가 스택으로 이동되어 옴
-    
-    ⇒  콘솔로그 찍혀 나옴 : baz in setTimeout in setTimeout! 5초!
+    c.  8.5초 안에는 console.log("baz in setTimeout! 8.5초!") 와 setTimeout이 있음  
+        : `콘솔로그 찍혀 나옴 : baz in setTimeout! 8.5초`  
+        : setTimeout() ⇒ wep api로 전송
+7.  wep api에서 함수진행이 끝난뒤 큐에 갔다가 스택으로 이동되어 옴  
+    : `콘솔로그 찍혀 나옴 : baz in setTimeout in setTimeout! 5초!`
     
 
 ### 유튜브 강의
@@ -256,7 +258,8 @@ baz in setTimeout in setTimeout! 5초!
 
 영어라서 조금 힘들수 있지만 갓튜브에서 제공하는 자막을 활용해서 정확하게 이해하자.
 
-[](https://youtu.be/8aGhZQkoFbQ)[https://youtu.be/8aGhZQkoFbQ](https://youtu.be/8aGhZQkoFbQ)
+<iframe width="640" height="360" <iframe width="640" height="360" src="https://www.youtube.com/embed/5zM8HW3qA7A" 
+frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
 
 유튜브에 나온 예제 링크 : [](http://latentflip.com/loupe/?code=CgoKJC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7)[http://latentflip.com/loupe](http://latentflip.com/loupe)
 
