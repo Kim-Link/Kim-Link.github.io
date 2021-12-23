@@ -211,7 +211,7 @@ delay()
 delay
 baz!
 delay in setTimeout! 8초!
-baz in setTimeout! 10초!
+baz in setTimeout! 8.5초!
 baz in setTimeout in setTimeout! 5초!
 
 
@@ -258,8 +258,7 @@ baz in setTimeout in setTimeout! 5초!
 
 영어라서 조금 힘들수 있지만 갓튜브에서 제공하는 자막을 활용해서 정확하게 이해하자.
 
-<iframe width="640" height="360" <iframe width="640" height="360" src="https://www.youtube.com/embed/5zM8HW3qA7A" 
-frameborder="0" allow= "autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="680" height="382" src="https://www.youtube.com/embed/8aGhZQkoFbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 유튜브에 나온 예제 링크 : [](http://latentflip.com/loupe/?code=CgoKJC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7)[http://latentflip.com/loupe](http://latentflip.com/loupe)
 
