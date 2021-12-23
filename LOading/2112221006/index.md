@@ -2,7 +2,7 @@
 layout: post
 type: LOading
 date: 2021-12-22 10:06
-category: TIL
+category: JavaScript
 title: "이벤트루프에 대해서"
 subtitle: 너어는 속고있었다...
 writer: 000000
@@ -37,7 +37,7 @@ hash-tag: [EventLoop]
   
 > -   할당 연산자(=) 다음에는, 표현식 컨텍스트가 옴
 > -  if 조건문 다음에 { 가 오면, 문장 컨텍스트가 옴
-> -   컨텍스트 메뉴 (context menu)
+> -   컨텍스트 메뉴 (context menu)  
 >  → 그 메뉴를 호출한 동작 및 상황에 따라, 다르게 선택 사항들이 나열되는 메뉴
 
 3.  자바스크립트 실행 컨텍스트(Execution Context)
