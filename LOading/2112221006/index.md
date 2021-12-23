@@ -1,7 +1,7 @@
 ---
 layout: post
 type: LOading
-date: 
+date: 2021-12-22 10:06
 category: TIL
 title: "이벤트루프에 대해서"
 subtitle: 너어는 속고있었다...
@@ -82,7 +82,7 @@ first();
 third();
 
 ```
-[사진]1.jpeg
+<img src="img/1.png" alt="1" style="zoom:80%;" />
 
 -   main()은 전역 컨텍스트 이다.
     -   크롬에서는 main 대신 (anonymous)함수로 나온다.
@@ -111,7 +111,7 @@ _사실 자바스크립트 엔진(V8) 자체는 동기적이다.(힝 속았지?)
 
 그 이유는 web api 와 이벤트 루프를 활용하기 때문이다.
 
-[사진]2.jpg
+<img src="img/2.png" alt="1" style="zoom:80%;" />
 
 ### **Javascript Engine(V8)**
 
@@ -135,7 +135,7 @@ Javascript Engine의 싱글 스레드 외에 스레드를 지원해줍니다. �
 -   Task Queue는 MicroTaskQueue와 MacroTaskQueue로 나뉨.
 -   MicroTaskQueue는 MacroTaskQueue보다 더 우선순위를 가지고 있기 때문에 먼저 Call Stack으로 전달되고 실행되게 된다.
 
-[사진]3.gif
+<img src="img/3.gif" alt="1" style="zoom:80%;" />
 
 ### 이벤트루프
 
