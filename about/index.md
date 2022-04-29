@@ -24,8 +24,8 @@ title: 소개|Kim-Link
                 <h1 class="subtitle">Introduction</h1>
                 <ul class="environment">
                     <li>안녕하세요! 말랑하니 백엔드 개발자 김수황입니다.</li>
+                    <li>현재 <A href = "https://sellha.kr/"> 셀링하니 </A> 서비스를 개발하고 있어요~! </li>
                     <li>문제점에 대한 문제 인식, 해결방안 도출, 실행, 결과에 대한 피드백을 통한 체계적이고 객관적으로 문제 해결하는 것을 좋아합니다.</li>
-                    <li>지금은 함께 일하시는 분들과  NestJS와 TypeORM, GraphQL을 공부하고 있습니다.</li>
                     <li>함께 일하는 동료들을 이해시키고 공유하고 더 좋은 방법을 피드백 받는것을 중요하게 생각합니다.</li>
                     <li>상황에 맞게 효율적으로 코드를 작성하고 리뷰하는 것을 좋아합니다.</li>
                     <li>직관적이고 명확하게 코드를 작성하는 것을 추구합니다.</li>
@@ -37,8 +37,8 @@ title: 소개|Kim-Link
             <div class="content">
                 <h1 class="subtitle">Skills</h1>
                 <ul class="environment">
-                    <li><b>Strong :</b> Javascript,Node.js, Express, MySQL, Sequelize</li>
-                    <li><b>Knowledgeable :</b>Typescript, AWS(EC2, Load Balancer, RDS, S3, CloudFront), PM2, React, Redux, HTML, CSS</li>
+                    <li><b>Strong :</b> Javascript, Node.js, Express, MySQL, MongoDB, Sequelize</li>
+                    <li><b>Knowledgeable :</b>Typescript, AWS(EC2, Load Balancer), RabbitMQ, PM2</li>
                     <li><b>ETC :</b>  GitHub,Notion, Slack, Discord, Miro</li>
                 </ul>
             </div>
