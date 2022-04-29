@@ -17,9 +17,9 @@
             {% endfor %}
           </tr>
           <tr>
-            {% assign sorted = site.pages | sort: 'date' | reverse | where: 'type', 'STuding' %}
+            {% assign sorted = site.pages | sort: 'date' | reverse | where: 'type', 'TIL' %}
             {% for page in sorted limit:4 %}
-            {% include post-card_studing.html %}
+            {% include post-til.html %}
             {% endfor %}
           </tr>
         </table>
