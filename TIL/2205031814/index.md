@@ -3,9 +3,9 @@ layout: post
 type: TIL
 date: 2022-05-03 18:14
 draft: false
-studing : true
+TIL : true
 category: TIL
-title: [크롤러] mongoDB error
+title: "[크롤러] mongoDB error"
 subtitle: 왜 몽고DB에 입력을 못하는 거니...
 writer: 000000
 post-header: true
@@ -18,9 +18,9 @@ hash-tag: [오류개선]
 
 ---
 
-![스크린샷 2022-05-03 오후 4.54.40.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4c89bbd8-4ccb-41d4-a8b5-29cc94ea7d13/스크린샷_2022-05-03_오후_4.54.40.png)
+<img src="img/about.png" alt="1" style="zoom:80%;" />
 
-![스크린샷 2022-05-03 오후 4.58.06.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/06039ca0-1b78-4980-abd1-80a12045067b/스크린샷_2022-05-03_오후_4.58.06.png)
+<img src="img/1.png" alt="1" style="zoom:80%;" />
 
 - No operations to execute 에러 발생
 
