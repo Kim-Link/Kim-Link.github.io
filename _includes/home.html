@@ -19,7 +19,7 @@
           <tr>
             {% assign sorted = site.pages | sort: 'date' | reverse | where: 'type', 'TIL' %}
             {% for page in sorted limit:4 %}
-            {% include post-til.html %}
+            {% include post-card_til.html %}
             {% endfor %}
           </tr>
         </table>
