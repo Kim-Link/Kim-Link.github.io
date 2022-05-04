@@ -9,7 +9,7 @@ title: MYSql WHERE문 응용하기
 subtitle: 난 한번에 많은 정보를 얻고 싶다...
 writer: 000000
 post-header: true
-header-img: img/about.jpeg
+header-img: img/MYSql.jpeg
 hash-tag: [MYSql, query]
 ---
 
