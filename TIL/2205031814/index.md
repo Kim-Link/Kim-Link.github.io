@@ -18,7 +18,7 @@ hash-tag: [오류개선]
 
 ---
 
-<img src="img/about.png" alt="1" style="zoom:80%;" />
+<img src="img/about.jpeg" alt="1" style="zoom:80%;" />
 
 <img src="img/1.png" alt="1" style="zoom:80%;" />
 
