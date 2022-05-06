@@ -44,4 +44,4 @@ const sortedData = reviewData.sort((a, b) => {
 
 ---
 
-[Array.prototype.sort() - JavaScript | MDN]:https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
