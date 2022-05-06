@@ -9,7 +9,7 @@ title: 다중 Sort
 subtitle: sort는 복잡해...
 writer: 000000
 post-header: true
-header-img: /TIL.jpeg
+header-img: ../TIL.jpeg
 hash-tag: [sort]
 ---
 
