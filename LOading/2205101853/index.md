@@ -7,7 +7,7 @@ title: 'CI/CD에 대해서'
 subtitle: 자동이 자동이 아니여~
 writer: 000000
 post-header: true
-header-img: img/about.jpg
+header-img: ../aws.jpeg
 hash-tag: ['AWS', 'CI/CD']
 ---
 
