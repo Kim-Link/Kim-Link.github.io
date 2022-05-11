@@ -10,7 +10,7 @@ subtitle: AWS Code Deploy
 writer: 000000
 post-header: true
 header-img: ../TIL.jpeg
-hash-tag: ['AWS', 'CI/CD']
+hash-tag: ['AWS', 'CICD']
 ---
 
 <br>
@@ -91,11 +91,15 @@ inodes나 용량 중 둘중 하나라도 100%가 있으면 no space left on devi
 
 [[EC2][Server][Docker] EC2 용량 꽉 찼을 때 해결 / No space left on device 해결](https://velog.io/@ssssujini99/EC2ServerDocker-EC2-%EC%9A%A9%EB%9F%89-%EA%BD%89-%EC%B0%BC%EC%9D%84-%EB%95%8C-%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95-No-space-left-on-device-%ED%95%B4%EA%B2%B0)
 
+<br>
+
 EC2 용량을 단순히 늘려주는것은 간단하게 끝났지만, 늘려준 용량을 또 xvda1에 적용을 해야 하기 때문에 약간 번거로움이 있다.
 
 참고로 inodes문제는 아래 링크를 통해 해결할수 있다.
 
 [No space left on device / 장치에 남은 공간이 없음 증상 해결](https://xinet.kr/?p=1452)
+
+<br>
 
 <br>
 
