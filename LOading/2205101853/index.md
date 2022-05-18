@@ -95,7 +95,7 @@ CI/CD의 단계는 **`소스 ⇒ 빌드 ⇒ 테스트 ⇒ 프로덕션`** 으로
 - AWS CodeCommit
     - Git과 호환이 가능한 소스 레포지토리
     - 다른 AWS 서비스와 통합(예 : IAM, KMS)
-    - qusrudtkgkd rjatk
+    - 변경사항 검사
     - Pull 요청과 CloudWatch 알람
 - GitHub Enterprise
 - Bitbucket, etc.
