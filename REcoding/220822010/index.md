@@ -7,7 +7,7 @@ think : true
 recoding : true
 category: 생각충돌
 title: 개발자는 컴공이어야 할까?
-subtitle: 난 아직 잘 모르겠어
+subtitle: 이제 뒤돌아 보지 말자.
 writer: 000000
 post-header: true
 header-img : img/about.jpeg
