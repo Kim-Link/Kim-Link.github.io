@@ -35,7 +35,7 @@ RabbitMQ를 설정할때 중요한것은 버전이다.
 
 ### RabbitMQ 설치 및 세팅
 
-- erlang 설치(23.3.4)
+- **erlang 설치(23.3.4)**
     
     ⇒ erlang 버전에 따라 설치 가능한 RabbitMQ버전이 다르다. 
     
@@ -52,7 +52,7 @@ RabbitMQ를 설정할때 중요한것은 버전이다.
     
     `sudo yum install -y rabbitmq-server-3.8.9-1.el7.noarch.rpm`
     
-- ****Management Plugin 활성화****
+- **Management Plugin 활성화**
     
     `sudo rabbitmq-plugins enable rabbitmq_management`
     
@@ -60,21 +60,21 @@ RabbitMQ를 설정할때 중요한것은 버전이다.
     
     `sudo service rabbitmq-server restart`
     
-- 관리자 계정 추가
+- **관리자 계정 추가**
     - 터미널에서 아래와 같이 입력한다.
     
     `sudo rabbitmqctl add_user rabbitmq password`
     
     `sudo rabbitmqctl set_user_tags rabbitmq administrator`
     
-    ⇒ 실제 사용 예시 : ID가 admin이고 PW가 test1234일 경우
+    ⇒  실제 사용 예시 : ID가 admin이고 PW가 test1234일 경우
     
     `sudo rabbitmqctl add_user admin test1234`
 
 
     `sudo rabbitmqctl set_user_tags admin administrator`
     
-- ****Management Plugin 접속****
+- **Management Plugin 접속**
 
     rabbitMQ는 자체적인 management UI를 제공한다. 
     
@@ -84,13 +84,13 @@ RabbitMQ를 설정할때 중요한것은 버전이다.
     
     <img src="img/1.png" alt="1" style="zoom:80%;" />
     
-- 계정 권한 부여
+- **계정 권한 부여**
     
-    **admin → Virtual Hosts → 표안에 있는 “/” 클릭**
+    1. **admin → Virtual Hosts → 표안에 있는 “/” 클릭**
     
     <img src="img/2.png" alt="1" style="zoom:80%;" />
     
-    **user → admin 확인 → set permission**
+    2. **user → admin 확인 → set permission**
     
     <img src="img/3.png" alt="1" style="zoom:80%;" />
 
