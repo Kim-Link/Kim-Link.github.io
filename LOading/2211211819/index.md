@@ -1,7 +1,7 @@
 ---
 layout: post
 type: LOading
-date: 2022-10-31 17:17
+date: 2022-11-21 18:19
 category: MacOS
 title: xcrun error
 subtitle: 업데이트 마다 왜이러니
