@@ -7,7 +7,7 @@ title: "Python 자료형에 대하여..."
 subtitle: Data bro..?
 writer: 000000
 post-header: true
-header-img: ../python_1.png
+header-img: ../python_2.png
 hash-tag: ['Python']
 ---
 
