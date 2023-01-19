@@ -7,7 +7,7 @@ title: Parsing, Parser and paser_classes in Django
 subtitle: Dj 췌키라우 파서
 writer: 000000
 post-header: true
-header-img: ../python_1.png
+header-img: ../django.png
 hash-tag: ['Django']
 ---
 
