@@ -172,7 +172,7 @@ def author_detail(request, author_id):
  또는 **`MultipleObjectsReturned`** 예외를 발생시킵니다.
 
 <aside>
-💡 **`.get()`** 메소드는 Django의 ORM(Object Relational Mapping)에서 데이터베이스로부터 단일 객체를 가져올 때 사용됩니다.
+💡 `.get()` 메소드는 Django의 ORM(Object Relational Mapping)에서 데이터베이스로부터 단일 객체를 가져올 때 사용됩니다.
 
 </aside>
 
