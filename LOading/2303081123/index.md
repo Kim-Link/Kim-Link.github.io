@@ -116,8 +116,7 @@ entry = Entry.objects.select_related('blog').get(id=1)
 이렇게 하면 **`entry.blog`**에 접근할 때마다 추가적인 데이터베이스 쿼리를 수행하지 않고, 이미 로드된 **`Blog`** 객체를 반환한다. 이는 대량의 데이터를 처리할 때 특히 유용하다.
 
 <aside>
-💡 참고로 **`select_related()`**는 일대다 관계(OneToMany)나 다대다 관계(ManyToMany)를 가진 모델에 대해서는 사용할 수 없습니다. 이 경우에는 **`prefetch_related()`** 메서드를 사용해야합니다.
-
+💡 참고로 `select_related()`는 일대다 관계(OneToMany)나 다대다 관계(ManyToMany)를 가진 모델에 대해서는 사용할 수 없습니다. 이 경우에는 `prefetch_related()` 메서드를 사용해야합니다.
 </aside>
 
 
@@ -173,7 +172,6 @@ def author_detail(request, author_id):
 
 <aside>
 💡 `.get()` 메소드는 Django의 ORM(Object Relational Mapping)에서 데이터베이스로부터 단일 객체를 가져올 때 사용됩니다.
-
 </aside>
 
 book은 **`Book`** 모델에서 **`author`** 필드가 현재 **`author`** 객체와 같은 책들을 가져온 후, 그 책들과 연결된 **`BookReview`** 객체를 가져오는데, 이 때 **`rating`**이 3 이상인 것만 가져오도록 필터링한 것이다.
@@ -230,6 +228,9 @@ book은 **`Book`** 모델에서 **`author`** 필드가 현재 **`author`** 객�
 무조건 좋은것은 없다.
 
 조건부 좋은것은 많으니 조건을 따져보고 사용하도록 하자.
+
+
+<br>
 
 
 [참고 문헌]
