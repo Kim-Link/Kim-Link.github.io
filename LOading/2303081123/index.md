@@ -230,3 +230,8 @@ book은 **`Book`** 모델에서 **`author`** 필드가 현재 **`author`** 객�
 무조건 좋은것은 없다.
 
 조건부 좋은것은 많으니 조건을 따져보고 사용하도록 하자.
+
+
+[참고 문헌]
+
+[Django - Django select_related() prefetch_related()](https://leffept.tistory.com/312)
