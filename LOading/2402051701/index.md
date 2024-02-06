@@ -38,6 +38,8 @@ AWS LoadBalancer, AWS AutoScaling, Docker
 - 인스턴스가 시작 할때  명령 실행
 	- git pull 받을수 있는 실행 명령
 	- docker-compose 실행 명령
+
+
 ```bash
 Content-Type: multipart/mixed; boundary="//"
 MIME-Version: 1.0
@@ -65,13 +67,17 @@ sudo docker-compose build palette-prod
 sudo docker-compose up -d palette-prod
 --//
 ```
+
+
 위 코드에서 실제로 내가 실행할 코드는
+
 ```
 cd /home/ubuntu/trend-back-api
 sudo git pull origin main
 sudo docker-compose build palette-prod
 sudo docker-compose up -d palette-prod
 ```
+
 이 부분인데, 나머지 부분을 적어 주지 않으면 인스턴스가 시작될때 작동되지 않았다.
 
 주의할 점음 이미지 안에 .env파일에 대한 확인과
