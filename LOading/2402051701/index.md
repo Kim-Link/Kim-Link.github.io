@@ -132,7 +132,7 @@ docker-compose up을 통해 컨테이너가 생성되고 실행되기 때문에
 
 7. 오토스케일링 → 용량 변경
 - 용량 다시 1개로 변경
-  <img src="img/continuousDeployment_13.png]]
+  <img src="img/continuousDeployment_13.png" alt="1" style="zoom:80%;" />
 
 # 배포 관련 QnA
 위 방법에 대해 예상되는 질문에 답을 하면,
