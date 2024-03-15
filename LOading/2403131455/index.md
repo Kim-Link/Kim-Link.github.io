@@ -8,7 +8,7 @@ subtitle: interceptor는 끝이 없지...
 writer: 0
 post-header: true
 header-img: ../nestJS.png
-hash-tag: ['NestJS', 'custom_interceptor', '편']
+hash-tag: [NestJS, custom_interceptor, 편]
 ---
 
 # Interceptor

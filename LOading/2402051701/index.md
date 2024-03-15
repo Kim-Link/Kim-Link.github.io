@@ -8,7 +8,7 @@ subtitle:
 writer: 0
 post-header: true
 header-img: ../aws.jpeg
-hash-tag: ['편', '무중단배포' , '롤링배포', 'AWS', 'LoadBalancer']
+hash-tag: [편, 무중단배포 , 롤링배포, AWS, LoadBalancer]
 ---
 
 # Intro

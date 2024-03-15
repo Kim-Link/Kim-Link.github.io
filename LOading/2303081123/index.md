@@ -8,7 +8,7 @@ subtitle: 장고 쿼리셋 최적화
 writer: 000000
 post-header: true
 header-img: ../django.png
-hash-tag: ['Python','Django']
+hash-tag: [Python,Django]
 ---
 
 ## Intro
