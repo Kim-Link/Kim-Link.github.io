@@ -8,7 +8,7 @@ subtitle: 자동이 자동이 아니여~
 writer: 000000
 post-header: true
 header-img: ../aws.jpeg
-hash-tag: ['AWS', 'CICD']
+hash-tag: [AWS, CICD]
 ---
 
 ## Intro

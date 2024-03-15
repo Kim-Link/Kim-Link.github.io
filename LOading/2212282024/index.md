@@ -8,7 +8,7 @@ subtitle: Dj 췌키라우 파서
 writer: 000000
 post-header: true
 header-img: ../django.png
-hash-tag: ['Django']
+hash-tag: [Django]
 ---
 
 ## Intro

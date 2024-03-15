@@ -8,7 +8,7 @@ subtitle: 장고 시작하기 - 1
 writer: 000000
 post-header: true
 header-img: ../python_2.png
-hash-tag: ['Python','Django']
+hash-tag: [Python,Django]
 ---
 
 <!-- 양식

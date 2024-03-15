@@ -8,7 +8,7 @@ subtitle: 업데이트 마다 왜이러니
 writer: 000000
 post-header: true
 header-img: ../macOS.png
-hash-tag: ['Error']
+hash-tag: [Error]
 ---
 
 ## Intro

@@ -38,9 +38,9 @@ title: 소개|Kim-Link
             <div class="content">
                 <h1 class="subtitle">Skills</h1>
                 <ul class="environment">
-                    <li><b>Strong :</b> Javascript, Node.js, Express, MySQL, MongoDB, Python, Django</li>
-                    <li><b>Knowledgeable :</b> Typescript, AWS(EC2, Load Balancer), RabbitMQ, PM2</li>
-                    <li><b>ETC :</b> GitHub,Notion, Slack, Discord, Miro</li>
+                    <li><b>Strong :</b> Javascript, Node.js, NestJS, Express, MySQL, MongoDB, Python</li>
+                    <li><b>Knowledgeable :</b> Typescript, AWS(EC2, Load Balancer), RabbitMQ, Elastic Search</li>
+                    <li><b>ETC :</b> GitHub,Notion</li>
                 </ul>
             </div>
         </div>

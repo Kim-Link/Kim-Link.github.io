@@ -8,7 +8,7 @@ subtitle: 와 진짜 Azure 까지 할줄이야..
 writer: 000000
 post-header: true
 header-img: ../azure.jpeg
-hash-tag: ['azure']
+hash-tag: [azure]
 ---
 
 ## Intro

@@ -8,7 +8,7 @@ subtitle: 산~토끼토끼야~
 writer: 000000
 post-header: true
 header-img: ../rabbitMQ.jpeg
-hash-tag: ['rabbitMQ']
+hash-tag: [rabbitMQ]
 ---
 
 ## Intro

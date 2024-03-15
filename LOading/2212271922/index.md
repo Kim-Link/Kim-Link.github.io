@@ -8,7 +8,7 @@ subtitle: Data bro..?
 writer: 000000
 post-header: true
 header-img: ../python_2.png
-hash-tag: ['Python']
+hash-tag: [Python]
 ---
 
 ## Intro
