@@ -2,7 +2,7 @@
 layout: post
 type: LOading
 date: 2024-03-13 14:55
-category: nestJS
+category: NestJS
 title: Custom interceptor 만들기
 subtitle: interceptor는 끝이 없지...
 writer: 0
