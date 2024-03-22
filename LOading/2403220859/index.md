@@ -12,18 +12,22 @@ hash-tag: [술, JavaScript, Promise]
 ---
 
 # map
+
 ## 정의
+
 **`map()`** 메서드는 배열 내의 모든 요소 각각에 대하여 주어진 함수를 호출한 결과를 모아 새로운 배열을 반환합니다.
 
 ## 구문
+
 ```js
 arr.map(function(element, index, array){  }, this);
 ```
+
 `element` :배열에서 처리 중인 현재 요소.
 `index` : 배열에서 처리 중인 현재 요소의 인덱스.
 `array` : `map()`가 호출된 배열.
 
-## 설명`
+## 설명
 어떤 배열에 있는 모든 요소들의 값을 변경해서 만든 `새로운 배열`을 써야 할 때가 사용합니다.
 여기서 중요한 점은 결과 값을 얻고 싶다면 새로운 변수에 할당 받아야 하지만,
 map 안에 callback 함수만 실행 시켜도 됩니다.
@@ -41,6 +45,7 @@ console.log(arr, result)
 ```
 
 대부분의 경우 나머지는 무시하고 콜백 함수 내부의 `element` 인수만 사용합니다.
+
 ```js
 let arr = [2, 3, 5, 7]
 
@@ -53,6 +58,7 @@ console.log('output arr: ', result)
 
 
 ## 예시
+
 ```js 
 // map-example.js
 function test1() {  
@@ -94,6 +100,7 @@ test2();
 ```js
 Promise.all(iterable);
 ```
+
 [`iterable`](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/all#iterable): `Array`와 같이 [순회 가능](https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Iteration_protocols#the_iterable_protocol)한(iterable) 객체.
 
 
@@ -159,9 +166,12 @@ sampleFunc();
 
 
 # map과 Promise.all
+
 ## map 만 가지고 요청 보내면 안되나요~?
+
 ### 응 안돼~
 - map 만 가지고 진행했을때 에러 발생합니다.
+
 ```js
 // map-promise-3.js
 async function sampleFunc(){  
@@ -196,6 +206,7 @@ sampleFunc();
 
 ### 그럼 어떻게 해??
 - `promise.all`도 같이쓰렴~
+
 ```js
 // map-promise-4.js
 async function sampleFunc(){  
@@ -233,6 +244,7 @@ sampleFunc();
 
 ### 근데 되는건 뭐야?
 - 근데 이건 왜 돼??
+
 ```js
 // map-promise-5.js
 async function sampleFunc(){  
@@ -263,6 +275,7 @@ async function sampleFunc(){
 // execute  
 sampleFunc();
 ```
+
 - 이건 `return`이 Promise가 아니잖아~
 
 ## 결론
