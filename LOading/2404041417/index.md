@@ -8,10 +8,14 @@ subtitle: 요청 주기를 모르면 넌 쥬니어!
 writer: 0
 post-header: true
 header-img: ../nestJS.png
-hash-tag: [nestJS, request_lifecycle]
+hash-tag: [NestJS, request_lifecycle]
 ---
 
 <img src="img/request_lifecycle.png" alt="1" style="zoom:80%;" />
+
+<br>
+
+# Request lifecycle
 
 Nest는 **요청 수명 주기**라고 하는 순서에 따라 요청을 처리하고 응답을 생성한다. 
 
@@ -20,7 +24,9 @@ middleware, pipes, guards, interceptors를 사용하면 global, controller, rout
 
 일반적으로 요청은 middleware 통해 가드, guards, pipes, 마지막으로 반환 경로의 interceptors로 이동한다.
 
-#### Middleware[#](https://docs.nestjs.com/faq/request-lifecycle#middleware)
+<br>
+
+## Middleware[#](https://docs.nestjs.com/faq/request-lifecycle#middleware)
 lifeCycle 내 모든 역활을 Middleware로 구현 가능하다.
 
 미들웨어는 특정 순서로 실행된다.
@@ -31,7 +37,7 @@ lifeCycle 내 모든 역활을 Middleware로 구현 가능하다.
 
 서로 다른 모듈에 바인딩된 미들웨어의 경우 루트 모듈에 바인딩 된 미들웨어가 먼저 실행된 다음 모듈이 **imports 배열에 추가된 순서대로** 미들웨어가 실행된다.
 
-#### Guard[#](https://docs.nestjs.com/faq/request-lifecycle#guards)
+## Guard[#](https://docs.nestjs.com/faq/request-lifecycle#guards)
 
 Request를 확인하고 수정할수 있다.
 
@@ -41,6 +47,7 @@ User Gaurd를 만들어서 헤더에 포함된 토큰의 유효성과 권한을 
 미들웨어와 마찬가지로 가드는 바인딩된 순서대로 실행된다.
 
 예를 들어
+
 ```typescript
 
 @UseGuards(Guard1, Guard2)
@@ -55,14 +62,20 @@ export class CatsController {
   }
 }
 ```
+
 이 코드에서 `Guard1` >  `Guard2` > `Guard3`보다 순서로 실행된다.
 
-> [!TIP]
-> 전역 바인딩과 컨트롤러 또는 로컬 바인딩에 대해 말할 때 차이점은 가드(또는 다른 구성 요소)가 바인딩되는 위치입니다. 
-> 모듈을 통해 구성 요소를사용`app.useGlobalGuard()`하거나 제공하는 경우 전역적으로 바인딩됩니다. 
-> 그렇지 않은 경우 데코레이터가 컨트롤러 클래스보다 앞에 있으면 컨트롤러에 바인딩되고, 데코레이터가 경로 선언 앞에 있으면 경로에 바인딩됩니다.
+> global 바인딩과 controller 또는 로컬 바인딩에 대해 말할 때 차이점은 가드(또는 다른 구성 요소)가 바인딩되는 위치입니다.
+> 
+> 모듈을 통해 구성 요소를사용`app.useGlobalGuard()`하거나 제공하는 경우 전역적으로 바인딩됩니다.
+> 
+> 그렇지 않은 경우 decorator controller 클래스보다 앞에 있으면 controller에 바인딩되고, decorator 경로 선언 앞에 있으면 경로에 바인딩됩니다.
 
-#### Interceptor[#](https://docs.nestjs.com/faq/request-lifecycle#interceptors)
+
+
+<br>
+
+## Interceptor[#](https://docs.nestjs.com/faq/request-lifecycle#interceptors)
 
 Interceptor 는 request와 response시에 중간에서 값을 Intercept 한 뒤, 보내는 역할을 한다.
 
@@ -73,17 +86,26 @@ Interceptor를 쓰는 대표적 케이스가 바로 Logger이다.
 Logger의 경우 request에 대한 정보, response에 대한 정보를 logging을 해야 하기에 Interceptor로 구현하기 알맞은 경우다.
 
 
-> [!**HINT**] NestJS 디스코드 채널 질문 답변
+> **NestJS 디스코드 채널 질문 답변**
+> 
 > Q. “Interceptor와 Middleware의 가장 큰 차이는 무엇인가요?”
+> 
 > A. Middleware는 파라미터로 request, response, next 이 세 가지를 받는데요,
+> 
 > NestJS에서 request와 response가 HTTP 위에서 동작하게 설계되어 있기 때문에 HTTP 통신이 아니면 사용이 불가합니다.
+> 
 > 반면에 Interceptor는 파라미터로 execution context라는 helper class를 받아 처리하기 때문에 HTTP 이외에도 WebSocket, GraphQL, RPC(Remote procedure call) 위에서도 동작 가능합니다.
+> 
 > 이 외에도 Middleware, Guards, Interceptors, Pipes, Filters는 기술적으로 모두 NodeJS에서 말하는 Middleware에 속하지만,
+> 
 > NestJS에선 Guards, Interceptors, Pipes, Filters를 enhancer라고 부르며,
+> 
 > 꼭 Middleware가 필요한 경우가 아니라면 enhancer 쓰길 권장하고 있습니다.
 
 
-#### Pipe[#](https://docs.nestjs.com/faq/request-lifecycle#pipes)
+<br>
+
+## Pipe[#](https://docs.nestjs.com/faq/request-lifecycle#pipes)
 
 파이프는 보통 두 가지로 사용된다.
 
@@ -95,7 +117,9 @@ Logger의 경우 request에 대한 정보, response에 대한 정보를 logging�
 
 그래서 pipe에서 exception이 발생하면 controller는 실행되지 않는다.
 
-#### Exception Filter[#](https://docs.nestjs.com/faq/request-lifecycle#filters)
+<br>
+
+## Exception Filter[#](https://docs.nestjs.com/faq/request-lifecycle#filters)
 
 Exception Filter의 특징은 다음과 같다.
 
@@ -110,12 +134,13 @@ Exception Filter의 특징은 다음과 같다.
 - route가 예외를 포착하는 경우 controller 또는 global 필터는 동일한 예외를 포착할 수 없다.
     - 동일한 예외를 포착하려면 필터 간에 상속을 사용해야 한다.
 
+<br>
 
-
-#### Summary[#](https://docs.nestjs.com/faq/request-lifecycle#summary)
+## Summary[#](https://docs.nestjs.com/faq/request-lifecycle#summary)
 
 마지막으로 nestJS 공식 페이지에 올라온 Summary이다.
 
+<br>
 
 In general, the request lifecycle looks like the following:
 
@@ -148,10 +173,10 @@ In general, the request lifecycle looks like the following:
     - 9.3 global
 10. Server response
 
+<br>
 
-
-##### 참고
-https://docs.nestjs.com/faq/request-lifecycle
-https://velog.io/@atesi/Nestjs-Interceptor
-https://brunch.co.kr/@subinkr/3
-https://blog-ko.superb-ai.com/nestjs-interceptor-and-lifecycle/
+### 참고
+[nestJS 공식 문서](https://docs.nestjs.com/faq/request-lifecycle)
+[Nestjs - Interceptor](https://velog.io/@atesi/Nestjs-Interceptor)
+[NestJS를 사용해야 하는 이유](https://brunch.co.kr/@subinkr/3)
+[NestJS Interceptor와 Lifecycle](https://blog-ko.superb-ai.com/nestjs-interceptor-and-lifecycle/)
