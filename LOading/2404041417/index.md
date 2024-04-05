@@ -19,10 +19,10 @@ hash-tag: [NestJS, request_lifecycle]
 
 Nest는 **요청 수명 주기**라고 하는 순서에 따라 요청을 처리하고 응답을 생성한다. 
 
-middleware, pipes, guards, interceptors를 사용하면 global, controller, route 단계에서 작동할 때 
+middleware, pipes, guards, interceptor를 사용하면 global, controller, route 단계에서 작동할 때 
 요청 수명 주기 동안 특정 코드 조각이 실행되는 위치를 추적하는 것이 어려울 수 있다. 
 
-일반적으로 요청은 middleware 통해 가드, guards, pipes, 마지막으로 반환 경로의 interceptors로 이동한다.
+일반적으로 요청은 middleware 통해 guards, interceptor, pipes, controller 마지막으로 반환 경로의 interceptor로 이동한다.
 
 <br>
 
