@@ -45,6 +45,7 @@ class MessageController {
 ```
 
 예를 들어 Message라는 모듈을 만든다고 했을때,
+
 코드를 보면 MessageController는 MessageService에 의존하고 있다고 볼수 있다.
 
 ### 주입
@@ -52,10 +53,14 @@ class MessageController {
 
 ### 의존성 주입
 **의존성이 있는 객체(코드)를 넣어주는것**
+
 의존성 주입은 객체가 직접 자신이 필요로 하는 의존성을 만들거나 관리하는 것이 아니라,
+
 **외부에서 의존성을 주입받는 것**을 의미한다.
 
+
 이는 객체가 자신의 동작을 완수하는 데 필요한 리소스를 스스로 관리하지 않고,
+
 외부에서 주입받아 사용함으로써 객체 간의 결합도를 낮추고 유연성을 높인다.
 
 ```ts
@@ -74,35 +79,49 @@ class MessageController {
 ```
 
 코드를 보면 앞에 봤던 것과 달리 Controller 안에서 새로운 new Service를 생성하지 않는다.
+
 대신 constructor 에서 service로 주입 받는것을 확인할수 있다.
 
 `어떻게 이게 가능할까?`
+
 이걸 알려면 제어 역전(IoC)에 대해 알아야 한다.
+
+
 ### 제어 역전(IoC: Inversion of Controller)
+
 제어의 역전은 의존성 주입을 통해 구현되는 디자인 패턴 중 하나이다.
 
 <img src="img/Pasted image 20240417143439.png" alt="1" style="zoom:80%;" />
 
 일반적인 경우에는 Class Controller에서 Class Service에 있는 것을 직접 참고 하여 사용하였다.
+
 제어 역전의 경우에는 Class Controller 와 Class Service 중간에 매개체를 두고 매개체를 통해서 사용한다.
+
 화살표 방향은 제어의(코드 흐름) 방향이다.
-화살표 방향만 보면 일반적인 경우에는 화살표가 위에서 아래로 흐르던 것이 제어역전을 사용하게 되면 화살표가 서로를 마주보게 되어 제어를 나타내던 방향이 달라진 것을 확인 할수 있다.
+
+화살표 방향만 보면 일반적인 경우에는 화살표가 위에서 아래로 흐르던 것이 제어역전을 사용하게 되면 
+
+화살표가 서로를 마주보게 되어 제어를 나타내던 방향이 달라진 것을 확인 할수 있다.
 
 즉, 개발자가 직접 의존성을 제어 하던것을
+
 어떠한 매개체에게 제어권을 일임 또는 빼앗기게 되어
-**더이상 제어의 주체가 개발자가 아니게 되기 때문**에
-제어의 역전이 발생했다고 보면 된다.
+
+**더이상 제어의 주체가 개발자가 아니게 되기 때문**에 제어의 역전이 발생했다고 보면 된다.
 
 
 <img src="img/Pasted image 20240417143752.png" alt="1" style="zoom:80%;" />
 
 여기서 매개체가 IoC Container(혹은 nestJS Container) 라고 한다.
+
 IoC Container는 개발자에게서 일임받은 제어권을 사용하여 의존성을 관리하고 인스턴스를 생성하여 주입해주고 나중에는 메모리를 해제하는 역활까지 한다.
 
 이 IoC Container는 주로 프레임워크(NestJS, Spring)가 역활을 담당한다.
 
 이렇게 함으로써 코드의 유연성과 확장성이 향상되고, 유지보수가 용이해진다.
+
 기존에는 의존성을 모두 직접 제어 했다면
+
 제어 역전이 발생하면 제어권이 역전 되어 있기 때문에 직접 제어 하지 않는다.
 
 
@@ -161,12 +180,14 @@ export class MessageService {
     - `readonly` 키워드를 사용하면 변수를 읽기 전용(immutable)으로 만들어 준다.
     - `public`은 객체의 속성이나 메서드를 외부에서 직접적으로 접근할 수 있도록 지정하는 키워드 이다.
         - TypeScript에서는 클래스의 멤버(속성, 메서드)를 선언할 때 별도의 한정자를 지정하지 않으면 기본적으로 `public`으로 간주된다.
-        - 반면, `private` 또는 `protected`로 선언된 멤버는 클래스 외부에서 직접 접근할 수 없다. 이러한 가시성 제어를 통해 클래스의 내부 구현을 보호하고 캡슐화(Encapsulation)를 유지할 수 있다.
+        - 반면, `private` 또는 `protected`로 선언된 멤버는 클래스 외부에서 직접 접근할 수 없다. 
+        - 이러한 가시성 제어를 통해 클래스의 내부 구현을 보호하고 캡슐화(Encapsulation)를 유지할 수 있다.
 
-> [!HINT] 의존성 주입의 핵심
->생성자를 통해 `MessageService`의 인스턴스가 주입되므로 `MessageController`에서 `MessageService`를 사용할 수 있다.
->`MessageController` 클래스의 생성자에서 `MessageService`의 인스턴스를 받아와서 `service` 속성에 할당합니다. 이렇게 함으로써 `MessageController`에서 `MessageService`의 메서드를 호출할 수 있게 됩니다.
->이때 `public` 접근 제어자를 사용하여 외부에서 접근 가능하도록 설정합니다.
+> 의존성 주입의 핵심
+> 생성자를 통해 `MessageService`의 인스턴스가 주입되므로 `MessageController`에서 `MessageService`를 사용할 수 있다.
+> `MessageController` 클래스의 생성자에서 `MessageService`의 인스턴스를 받아와서 `service` 속성에 할당한다. 
+> 이렇게 함으로써 `MessageController`에서 `MessageService`의 메서드를 호출할 수 있게 된다.
+> 이때 `public` 접근 제어자를 사용하여 외부에서 접근 가능하도록 설정한다.
 
 
 #### Service.ts
@@ -215,8 +236,11 @@ export class MessageModule {}
 - 테스트 용이
 
 ## 결론
+
 코드의 효율을 높이고 유지보수성을 높이기 위해 강한 결합을 느슨한 결합으로 변경할 필요가 있음.
+
 결합을 느슨하게 하기 위해 의존성 주입이 사용됨.
+
 의존성 주입을 시행하기 위해 제어의 역전이 구현되었음.
 
 ### 참고
