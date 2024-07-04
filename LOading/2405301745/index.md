@@ -4,7 +4,7 @@ type: LOading
 date: 2024-05-30 17:45
 category: ElasticSearch
 title: ElasticSearch 활용(3) - Alias
-subtitle: ElasticSearch Alias
+subtitle: 얼라이어스 아니고 에일리어스
 writer: 0
 post-header: true
 header-img: ../elastic.png
