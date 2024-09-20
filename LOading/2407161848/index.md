@@ -3,7 +3,7 @@ layout: post
 type: LOading
 date: 2024-07-16 18:48
 category: 개발
-title: OOP 재 적립
+title: 객체지향(OOP) 재 적립
 subtitle: 다시 한번 OOP... 근데 한번 더 적을듯...
 writer: 0
 post-header: true
@@ -11,6 +11,7 @@ header-img: ../OOP.png
 hash-tag:
   - OOP
   - 술
+  - 객체지향
 ---
 
 
