@@ -35,7 +35,7 @@ A의 잔고에서 100만원을 출금하였는데, 이 때 전산오류가 생�
 데이터베이스에서 Transaction이 필요한 이유는 데이터를 다룰 때 장애가 일어나는 경우 transaction은 장애 발생시 데이터를 복구하는 작업의 단위가 되기 때문이다. 또한 데이터베이스에서 여러 작업이 동시에 같은 데이터를 다룰 때가 있다. transaction을 통해 이 작업을 서로 분리하고, 이를 통해 오류가 발생하지 않게 합니다. DBMS는 transaction이 이러한 규칙을 유지하도록 지원한다.
 
 
-```SQL
+```sql
 START TRANSACTION;
 
 -- (1) A 계좌 잔액 가져옴 A = 1000
@@ -88,7 +88,7 @@ COMMIT;
 갱신손실 문제를 해결하기 위한 방법중에 하나로 데이터를 수정중에 있는 transaction은 해당 데이터를 Lock으로 잠금장치를 하여 다른 Transaction이 접근하지 못하게 하는 방법이 있다. Lock이 걸린 데이터는 Unlock이 될 때까지 다른 Transaction들은 접근하지 못하고 기다려야 한다.
 
 
-```SQL
+```sql
 START TRANSACTION;
 
 -- (1) A 계좌 잔액 가져옴 A = 1000
